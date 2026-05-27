@@ -1,4 +1,4 @@
-import { appendFile, rm } from "node:fs/promises";
+import { appendFile, mkdir } from "node:fs/promises";
 import channles from "./telegram_channels.json" assert { type: "json" };
 //--------------------------------------------------------- Type & Interfaces
 type Result = Record<"config" | "country" | "typeConfig", string>;
@@ -11,6 +11,15 @@ interface IPApiResponse {
 }
 //---------------------------------------------------------- Variable
 const countGetConfigOfEveryChannel = 2;
+const CHANNEL_CONCURRENCY = 8;
+const IP_CHECK_CONCURRENCY = 2;
+const IP_CHECK_DELAY_MS = 400;
+const FETCH_TIMEOUT_MS = 15_000;
+const FETCH_RETRIES = 3;
+const IP_CHECK_URL =
+  process.env.IP_CHECK_URL ?? "https://www.irjh.top/py/check/ip.php?ip=";
+
+const seenConfigs = new Set<string>();
 const countryFlagMap: { [key: string]: string } = {
   AF: "🇦🇫",
   AL: "🇦🇱",
@@ -211,8 +220,89 @@ const countryFlagMap: { [key: string]: string } = {
 };
 
 //---------------------------------------------------------- Tools
+async function fetchWithRetry(
+  url: string,
+  init?: RequestInit
+): Promise<Response> {
+  let lastError: unknown;
+  for (let attempt = 0; attempt < FETCH_RETRIES; attempt++) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+    try {
+      const response = await fetch(url, { ...init, signal: controller.signal });
+      clearTimeout(timeout);
+      if (response.ok || response.status < 500) return response;
+      lastError = new Error(`HTTP ${response.status}`);
+    } catch (error) {
+      clearTimeout(timeout);
+      lastError = error;
+    }
+    if (attempt < FETCH_RETRIES - 1) {
+      await new Promise((resolve) =>
+        setTimeout(resolve, 500 * (attempt + 1))
+      );
+    }
+  }
+  throw lastError;
+}
+
+async function runWithConcurrency<T>(
+  items: readonly T[],
+  limit: number,
+  fn: (item: T) => Promise<void>
+): Promise<void> {
+  let index = 0;
+  async function worker(): Promise<void> {
+    while (index < items.length) {
+      const current = items[index++]!;
+      await fn(current);
+    }
+  }
+  const workers = Math.min(limit, items.length);
+  await Promise.all(Array.from({ length: workers }, () => worker()));
+}
+
+class Semaphore {
+  private current = 0;
+  private readonly queue: (() => void)[] = [];
+
+  constructor(private readonly max: number) {}
+
+  async acquire(): Promise<void> {
+    if (this.current < this.max) {
+      this.current++;
+      return;
+    }
+    await new Promise<void>((resolve) => this.queue.push(resolve));
+    this.current++;
+  }
+
+  release(): void {
+    this.current--;
+    const next = this.queue.shift();
+    if (next) next();
+  }
+
+  async run<T>(fn: () => Promise<T>): Promise<T> {
+    await this.acquire();
+    try {
+      return await fn();
+    } finally {
+      this.release();
+    }
+  }
+}
+
+const ipCheckSemaphore = new Semaphore(IP_CHECK_CONCURRENCY);
+
 function decodeHtmlEntities(str: string): string {
-  return decodeURIComponent(str)
+  let decoded = str;
+  try {
+    decoded = decodeURIComponent(str);
+  } catch {
+    // keep original on malformed percent-encoding
+  }
+  return decoded
     .replace(/&amp;/g, "&")
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">")
@@ -233,11 +323,11 @@ function decodeBase64Unicode(str: string): any {
 //---------------------------------------------------------- Functions
 async function fetchHtml(url: string): Promise<void> {
   try {
-    const response = await fetch(url, { redirect: "manual" });
+    const response = await fetchWithRetry(url, { redirect: "manual" });
     if (!response.ok) {
-      //    throw new Error(`HTTP error! status: ${response.status}`);
       await appendFile(`./BadChannels.txt`, url + "\n");
       console.log(url);
+      return;
     }
     const html: string = await response.text();
 
@@ -302,56 +392,71 @@ async function configChanger(urlString: string): Promise<FinalResult> {
   return { protocol, config, country, typeConfig };
 }
 async function checkIP(ipaddress: string) {
-  console.log("Check Ip ...");
-  await new Promise((resolve) => setTimeout(resolve, 1000));
+  return ipCheckSemaphore.run(async () => {
+    console.log("Check Ip ...");
+    await new Promise((resolve) => setTimeout(resolve, IP_CHECK_DELAY_MS));
 
-  let data: Partial<IPApiResponse> = {};
+    let data: Partial<IPApiResponse> = {};
 
-  try {
-    const response = await fetch(`https://www.irjh.top/py/check/ip.php?ip=${ipaddress}`);
+    try {
+      const response = await fetchWithRetry(
+        `${IP_CHECK_URL}${encodeURIComponent(ipaddress)}`
+      );
 
-    if (!response.ok) {
-      console.log(`HTTP error! status: ${response.status}`);
-    } else {
-      data = (await response.json()) as IPApiResponse;
+      if (!response.ok) {
+        console.log(`HTTP error! status: ${response.status}`);
+      } else {
+        data = (await response.json()) as IPApiResponse;
+      }
+    } catch (error) {
+      console.log("IP check failed:", ipaddress, error);
     }
-  } catch{ }
 
-  const country = data.country ?? "Unknown";
-  const countryCode = data.countryCode ?? "UN";
-  const flag = countryFlagMap[countryCode];
-  const ip = data.query ?? ipaddress;
+    const country = data.country ?? "Unknown";
+    const countryCode = data.countryCode ?? "UN";
+    const flag = countryFlagMap[countryCode] ?? countryFlagMap.UN;
+    const ip = data.query ?? ipaddress;
 
-  return { country, flag, ip, countryCode };
+    return { country, flag, ip, countryCode };
+  });
 }
 async function Grouping(urls: string): Promise<void> {
   console.log("Config :", urls + "\n");
 
-  const FinalResult = await configChanger(urls);
+  let finalResult: FinalResult;
+  try {
+    finalResult = await configChanger(urls);
+  } catch (error) {
+    console.log("Skipping invalid config:", urls, error);
+    return;
+  }
 
-  console.log("final Info :", FinalResult, "\n");
+  if (seenConfigs.has(finalResult.config)) return;
+  seenConfigs.add(finalResult.config);
 
-  if (FinalResult) {
+  console.log("final Info :", finalResult, "\n");
+
+  await appendFile(
+    `./category/${finalResult.protocol}.txt`,
+    finalResult.config + "\n"
+  );
+  await appendFile(
+    `./category/${finalResult.country}.txt`,
+    finalResult.config + "\n"
+  );
+  if (finalResult.typeConfig) {
     await appendFile(
-      `./category/${FinalResult.protocol}.txt`,
-      FinalResult.config + "\n"
+      `./category/${finalResult.typeConfig}.txt`,
+      finalResult.config + "\n"
     );
-    await appendFile(
-      `./category/${FinalResult.country}.txt`,
-      FinalResult.config + "\n"
-    );
-    if (FinalResult.typeConfig) {
-      await appendFile(
-        `./category/${FinalResult.typeConfig}.txt`,
-        FinalResult.config + "\n"
-      );
-    }
   }
 }
 async function startScaninig() {
-  for (const value of channles) {
+  await mkdir("./category", { recursive: true });
+
+  await runWithConcurrency(channles, CHANNEL_CONCURRENCY, async (value) => {
     console.log("Start Get From :" + value);
     await fetchHtml("https://t.me/s/" + value);
-  }
+  });
 }
 startScaninig();

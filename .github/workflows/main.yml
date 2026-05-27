@@ -24,8 +24,9 @@ jobs:
 
       - name: Remove And Replace New Configs
         run: |
-         rm -f category/*
-         > BadChannels.txt
+          mkdir -p category
+          rm -f category/*
+          > BadChannels.txt
 
       # Run the index.ts file
       - name: Run index.ts
@@ -36,9 +37,12 @@ jobs:
         run: |
           git config --local user.name "Robot-1"
           git config --local user.email "Robot@example.com"
-          git add -A --ignore-removal category/*
-          git add BadChannels.txt
-          git commit -m "UpdateConfigs"
-          git push
+          git add -A --ignore-removal category/* BadChannels.txt
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "UpdateConfigs"
+            git push
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
