@@ -153,7 +153,7 @@ jobs:
           while IFS= read -r line || [ -n "$line" ]; do
             [ -z "$line" ] && continue
 
-            addition="${line}"$'\n\n'
+            addition="\`${line}\`"$'\n\n'
             if [ $(( ${#message} + ${#addition} )) -gt "$max_chars" ]; then
               send_message "$message"
               sent=$((sent + 1))
@@ -168,10 +168,6 @@ jobs:
             send_message "$message"
             sent=$((sent + 1))
           fi
-
-          footer=$'\n\n@v2rayng_free | #v2ray #vmess #vless'
-          summary="${header}تعداد ${sent} پیام ارسال شد.${footer}"
-          send_message "$summary"
 
           echo "Sent $sent message batch(es) to Telegram."
 
