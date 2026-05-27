@@ -1,1 +1,0 @@
-vless://406d8436-0eb9-4eb2-84fb-960e076ffba6@14.102.228.76:2083?mode=stream-one&path=/de&security=tls&alpn=h2,http/1.1&encryption=none&insecure=1&host=de.lezzatzone.ir&fp=chrome&type=xhttp&allowInsecure=1&sni=de.lezzatzone.ir#🇨🇿 CZ | 14.102.228.76
