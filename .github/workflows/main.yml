@@ -12,15 +12,12 @@ jobs:
       contents: write
 
     steps:
-      # Checkout the code
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      # Setup Bun
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
 
-      # Install dependencies
       - name: Install Dependencies
         run: bun install
 
@@ -30,19 +27,24 @@ jobs:
           rm -f category/*
           > BadChannels.txt
 
-      # Run the index.ts file
       - name: Run index.ts
         run: bun index.ts
 
-      # Commit changes
-      - name: Commit Changes To UpdateConfigs
+      - name: Upload category artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: category
+          path: category/
+          retention-days: 7
+
+      - name: Commit BadChannels
         run: |
           git config --local user.name "Robot-1"
           git config --local user.email "Robot@example.com"
-          git add -A --ignore-removal category/* BadChannels.txt
+          git add BadChannels.txt
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "No BadChannels changes to commit"
           else
-            git commit -m "UpdateConfigs"
+            git commit -m "Update BadChannels"
             git push
           fi

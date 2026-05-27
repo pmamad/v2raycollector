@@ -17,12 +17,21 @@ jobs:
       github.event_name == 'workflow_dispatch' ||
       github.event.workflow_run.conclusion == 'success'
 
+    permissions:
+      actions: read
+      contents: write
+
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
+
+      - name: Download category artifact
+        if: github.event_name == 'workflow_run'
+        uses: actions/download-artifact@v4
         with:
-          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
-          fetch-depth: 2
+          name: category
+          run-id: ${{ github.event.workflow_run.id }}
+          path: category
 
       - name: Collect new configs
         id: collect
@@ -39,53 +48,37 @@ jobs:
 
           mkdir -p .workflow
           : > .workflow/new_configs.txt
+          : > .workflow/current_configs.txt
 
-          if [ "${{ github.event_name }}" = "workflow_run" ]; then
-            BEFORE_SHA="${{ github.event.workflow_run.head_sha }}"
-            AFTER_SHA="$(git rev-parse HEAD)"
-            echo "Collector commit range: ${BEFORE_SHA} -> ${AFTER_SHA}"
-
-            if [ "$BEFORE_SHA" = "$AFTER_SHA" ]; then
-              echo "No new commit from UpdateConfigs (nothing to send)."
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            if [ ! -d category ] || [ -z "$(find category -type f -name '*.txt' 2>/dev/null | head -1)" ]; then
+              echo "Manual run: run UpdateConfigs first (category artifact missing locally)."
               echo "count=0" >> "$GITHUB_OUTPUT"
               exit 0
             fi
-
-            DIFF_FROM="$BEFORE_SHA"
-            DIFF_TO="$AFTER_SHA"
-          else
-            if ! git rev-parse HEAD~1 >/dev/null 2>&1; then
-              echo "No previous commit to diff against."
-              echo "count=0" >> "$GITHUB_OUTPUT"
-              exit 0
-            fi
-
-            DIFF_FROM="HEAD~1"
-            DIFF_TO="HEAD"
-            echo "Manual diff range: ${DIFF_FROM} -> ${DIFF_TO}"
           fi
 
           for file in "${PROTOCOL_FILES[@]}"; do
             [ -f "$file" ] || continue
-            git diff --unified=0 "$DIFF_FROM" "$DIFF_TO" -- "$file" \
-              | grep '^+' \
-              | grep -v '^+++' \
-              | sed 's/^+//' \
-              >> .workflow/new_configs.txt || true
+            cat "$file" >> .workflow/current_configs.txt
           done
 
-          if [ -s .workflow/new_configs.txt ]; then
-            sort -u .workflow/new_configs.txt -o .workflow/new_configs.txt
+          if [ ! -s .workflow/current_configs.txt ]; then
+            echo "No configs in category artifact."
+            echo "count=0" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
+
+          sort -u .workflow/current_configs.txt -o .workflow/current_configs.txt
+          touch .github/last-sent-configs.txt
+          sort -u .github/last-sent-configs.txt -o .github/last-sent-configs.txt
+
+          comm -23 .workflow/current_configs.txt .github/last-sent-configs.txt \
+            > .workflow/new_configs.txt
 
           count=$(wc -l < .workflow/new_configs.txt | tr -d ' ')
           echo "count=$count" >> "$GITHUB_OUTPUT"
           echo "Found $count new config(s)."
-
-          if [ "$count" = "0" ]; then
-            echo "Changed files in range:"
-            git diff --name-only "$DIFF_FROM" "$DIFF_TO" -- category/ || true
-          fi
 
       - name: Send new configs to Telegram
         if: steps.collect.outputs.count != '0'
@@ -150,3 +143,19 @@ jobs:
           send_message "$summary"
 
           echo "Sent $sent message batch(es) to Telegram."
+
+      - name: Update last-sent snapshot
+        if: steps.collect.outputs.count != '0'
+        run: |
+          cat .workflow/new_configs.txt >> .github/last-sent-configs.txt
+          sort -u .github/last-sent-configs.txt -o .github/last-sent-configs.txt
+
+          git config --local user.name "Robot-1"
+          git config --local user.email "Robot@example.com"
+          git add .github/last-sent-configs.txt
+          if git diff --staged --quiet; then
+            echo "Snapshot already up to date"
+          else
+            git commit -m "Update last-sent Telegram configs"
+            git push
+          fi
