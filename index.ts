@@ -18,6 +18,7 @@ const FETCH_TIMEOUT_MS = 15_000;
 const FETCH_RETRIES = 3;
 const IP_CHECK_URL =
   process.env.IP_CHECK_URL ?? "https://www.irjh.top/py/check/ip.php?ip=";
+const CONFIG_NAME_SUFFIX = "%40vpn_mall";
 
 const seenConfigs = new Set<string>();
 const countryFlagMap: { [key: string]: string } = {
@@ -361,7 +362,7 @@ async function vmessHandle(input: string): Promise<Result> {
   const configinfo = decodeBase64Unicode(input);
 
   const { flag, country, ip , countryCode } = await checkIP(configinfo.add);
-  configinfo.ps = `${flag} ${countryCode} | ${ip}`;
+  configinfo.ps = `${flag} ${countryCode} | ${ip}${CONFIG_NAME_SUFFIX}`;
 
   return {
     config: encodeBase64Unicode(configinfo),
@@ -387,7 +388,10 @@ async function configChanger(urlString: string): Promise<FinalResult> {
 
     typeConfig = searchParams.get("type") ?? "";
     country = api.country;
-    config = urlString.split("#")[0] + "#" + `${api.flag} ${api.countryCode} | ${api.ip}`;
+    config =
+      urlString.split("#")[0] +
+      "#" +
+      `${api.flag} ${api.countryCode} | ${api.ip}${CONFIG_NAME_SUFFIX}`;
   }
   return { protocol, config, country, typeConfig };
 }
