@@ -3,7 +3,11 @@ name: UpdateConfigs
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 */2 * * *"
+    - cron: "*/5 * * * *"
+
+concurrency:
+  group: update-configs
+  cancel-in-progress: true
 
 jobs:
   collect:

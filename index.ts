@@ -362,7 +362,7 @@ async function vmessHandle(input: string): Promise<Result> {
   const configinfo = decodeBase64Unicode(input);
 
   const { flag, country, ip , countryCode } = await checkIP(configinfo.add);
-  configinfo.ps = `${flag} ${countryCode} | ${ip}${CONFIG_NAME_SUFFIX}`;
+  configinfo.ps = `${CONFIG_NAME_SUFFIX} | ${flag} ${countryCode} | ${ip}`;
 
   return {
     config: encodeBase64Unicode(configinfo),
@@ -391,7 +391,7 @@ async function configChanger(urlString: string): Promise<FinalResult> {
     config =
       urlString.split("#")[0] +
       "#" +
-      `${api.flag} ${api.countryCode} | ${api.ip}${CONFIG_NAME_SUFFIX}`;
+      `${CONFIG_NAME_SUFFIX} | ${api.flag} ${api.countryCode} | ${api.ip}`;
   }
   return { protocol, config, country, typeConfig };
 }
