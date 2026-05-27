@@ -40,15 +40,34 @@ jobs:
           mkdir -p .workflow
           : > .workflow/new_configs.txt
 
-          if ! git rev-parse HEAD~1 >/dev/null 2>&1; then
-            echo "No previous commit to diff against."
-            echo "count=0" >> "$GITHUB_OUTPUT"
-            exit 0
+          if [ "${{ github.event_name }}" = "workflow_run" ]; then
+            BEFORE_SHA="${{ github.event.workflow_run.head_sha }}"
+            AFTER_SHA="$(git rev-parse HEAD)"
+            echo "Collector commit range: ${BEFORE_SHA} -> ${AFTER_SHA}"
+
+            if [ "$BEFORE_SHA" = "$AFTER_SHA" ]; then
+              echo "No new commit from UpdateConfigs (nothing to send)."
+              echo "count=0" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+
+            DIFF_FROM="$BEFORE_SHA"
+            DIFF_TO="$AFTER_SHA"
+          else
+            if ! git rev-parse HEAD~1 >/dev/null 2>&1; then
+              echo "No previous commit to diff against."
+              echo "count=0" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+
+            DIFF_FROM="HEAD~1"
+            DIFF_TO="HEAD"
+            echo "Manual diff range: ${DIFF_FROM} -> ${DIFF_TO}"
           fi
 
           for file in "${PROTOCOL_FILES[@]}"; do
             [ -f "$file" ] || continue
-            git diff --unified=0 HEAD~1 HEAD -- "$file" \
+            git diff --unified=0 "$DIFF_FROM" "$DIFF_TO" -- "$file" \
               | grep '^+' \
               | grep -v '^+++' \
               | sed 's/^+//' \
@@ -62,6 +81,11 @@ jobs:
           count=$(wc -l < .workflow/new_configs.txt | tr -d ' ')
           echo "count=$count" >> "$GITHUB_OUTPUT"
           echo "Found $count new config(s)."
+
+          if [ "$count" = "0" ]; then
+            echo "Changed files in range:"
+            git diff --name-only "$DIFF_FROM" "$DIFF_TO" -- category/ || true
+          fi
 
       - name: Send new configs to Telegram
         if: steps.collect.outputs.count != '0'
@@ -97,7 +121,6 @@ jobs:
             fi
           }
 
-          # Batch configs into messages under Telegram's 4096-char limit
           header=$'🆕 کانفیگ\u200cهای جدید\n\n'
           max_chars=3900
           message="$header"

@@ -10,7 +10,7 @@ interface IPApiResponse {
   countryCode: string;
 }
 //---------------------------------------------------------- Variable
-const countGetConfigOfEveryChannel = 2;
+const countGetConfigOfEveryChannel = 20;
 const CHANNEL_CONCURRENCY = 8;
 const IP_CHECK_CONCURRENCY = 2;
 const IP_CHECK_DELAY_MS = 400;
