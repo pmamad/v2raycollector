@@ -8,6 +8,8 @@ on:
 jobs:
   UpdateConfigs:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       # Checkout the code
@@ -44,5 +46,3 @@ jobs:
             git commit -m "UpdateConfigs"
             git push
           fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
