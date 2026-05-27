@@ -1,10 +1,17 @@
 trojan://humanity@45.130.125.76:443?security=tls&sni=www.gossipglove.com&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=www.gossipglove.com&path=/assignment#🇸🇨 SC | 45.130.125.76
+trojan://mitivpn@45.130.125.76:443?type=ws&security=tls&path=/?ed=2048&sni=www.app-cloud.ir&alpn=http/1.1&fp=chrome&allowInsecure=1#🇸🇨 SC | 45.130.125.76
 vless://012570d4-4ab4-489f-b843-0cc4cab3df14@193.151.138.118:28935?type=tcp&encryption=none&security=none#🇮🇷 IR | 193.151.138.118
+vless://1cd88aa0-662e-4a68-afd5-430ef24b1997@193.151.132.231:2052?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 IR | 193.151.132.231
 vless://384e0806-fcee-4f92-b671-bfc6a4794148@151.101.2.219:80?path=/&security=none&encryption=none&host=oijji.global.ssl.fastly.net&type=ws#🇨🇦 CA | 151.101.2.219
 vless://5a91d0c3-47b6-45aa-b918-c66ffbe2eef0@wwg.lowping.vip:1367?encryption=none&security=reality&type=tcp&headerType=none&flow=xtls-rprx-vision&sni=wwg.lowping.vip&fp=qq&pbk=9u2rH7xppVS_MIi38IUW5GTqJ4exK70WhSlfEbD4iA4&sid=370904eeb60dafe4#🇩🇪 DE | 178.105.221.102
+vless://6a719f2b-b629-462d-975a-9c0daa3edb75@chatgpt.com:2083?path=/&security=tls&encryption=none&insecure=1&host=raviddd.pages.dev&type=ws&allowInsecure=1&sni=rAviDdD.paGEs.DEv#🇨🇦 CA | 104.18.32.47
+vless://6a719f2b-b629-462d-975a-9c0daa3edb75@chatgpt.com:2083?path=/&security=tls&encryption=none&insecure=1&host=raviddd.pages.dev&type=ws&allowInsecure=1&sni=rAviDdD.paGEs.DEv#🇬🇧 GB | 2a06:98c1:310b::ac40:9bd1
 vless://6d49fae1-374d-313e-b360-1227b0ea8dea@s662.ccgfw.top:443?encryption=none&type=tcp&host=s662.ccgfw.top&flow=xtls-rprx-vision&security=tls&sni=u712032us662.ccgfw.top#🇩🇪 DE | 185.230.162.56
+vless://9ebab373-19fe-4535-aa95-4e348ea300f1@46.235.186.50:443?path=/ws&security=tls&encryption=none&insecure=0&host=s28315.cdn.ngenix.net&type=ws&allowInsecure=0&sni=s28315.cdn.ngenix.net#🇷🇺 RU | 46.235.186.50
+vless://afcac633-0e1a-46c3-bef2-cc01cc0097c8@85.234.114.53:22231?security=tls&encryption=none&insecure=1&headerType=none&type=tcp&allowInsecure=1&flow=xtls-rprx-vision&sni=r1.mizulina.top#🇷🇺 RU | 85.234.114.53
 vless://bb654318-0594-4ce2-a5a6-65e11830248a@185.143.233.122:80?encryption=none&host=de.online-python.ir&path=/&security=none&type=ws#🇮🇷 IR | 185.143.233.122
 vless://e9acee17-7307-4ceb-b86f-35c12ce0dd77@95.182.97.249:443?type=ws&encryption=none&path=/&host=&security=none#🇫🇷 FR | 95.182.97.249
+vless://f00984ef-f57e-41db-9182-b25f7bc3a1e2@94.156.112.71:443?security=reality&encryption=none&pbk=tcGias3ywS5uxXzg5Bv-TNtxclCganaj3iFSjjHgMSQ&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=germany2.stardevs.top&sid=f37fb7531c60780d#🇩🇪 DE | 94.156.112.71
 vless://f2e9df1b-e0ba-4b37-a301-6aab8662c926@77.73.238.191:16622?security=reality&encryption=none&pbk=E5N_ckakvqgTOjiQ6Rmuwz1fchiT1-J3tH4cbzcH_GQ&headerType=&fp=chrome&spx=/&type=tcp&sni=yahoo.com&sid=1c01d60ea915#🇱🇻 LV | 77.73.238.191
 vless://f6a793f1-7cb6-452a-98e5-05af8da47330@37.27.12.2:56909?encryption=none&security=none&type=tcp#🇫🇮 FI | 37.27.12.2
 vmess://eyJhZGQiOiJ1ay5jb25uZnVsbC5vcmciLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiY2hyb21lIiwiaG9zdCI6IiIsImlkIjoiZDY0ZDUyYjEtMTQ0Zi00YmNlLWE2ZDctMTMyNGRlMTg3YjFiIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIyMDUzIiwicHMiOiLwn4es8J+HpyBHQiB8IDU3LjEyOC4xNzQuMTI0Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
