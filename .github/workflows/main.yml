@@ -124,12 +124,16 @@ jobs:
             exit 1
           fi
 
+          escape_html() {
+            printf '%s' "$1" | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g'
+          }
+
           send_message() {
             local payload
             payload=$(jq -n \
               --arg chat_id "$TELEGRAM_CHAT_ID" \
               --arg text "$1" \
-              '{chat_id: $chat_id, text: $text, disable_web_page_preview: true}')
+              '{chat_id: $chat_id, text: $text, parse_mode: "HTML", disable_web_page_preview: true}')
 
             local response http_code body
             response=$(curl -sS -w "\n%{http_code}" -X POST \
@@ -153,7 +157,7 @@ jobs:
           while IFS= read -r line || [ -n "$line" ]; do
             [ -z "$line" ] && continue
 
-            addition="\`${line}\`"$'\n\n'
+            addition="<code>$(escape_html "$line")</code>"$'\n\n'
             if [ $(( ${#message} + ${#addition} )) -gt "$max_chars" ]; then
               send_message "$message"
               sent=$((sent + 1))
