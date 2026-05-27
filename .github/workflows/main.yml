@@ -1,12 +1,12 @@
 name: UpdateConfigs
 
 on:
-  workflow_dispatch: # اجازه اجرای دستی
+  workflow_dispatch:
   schedule:
     - cron: "30 */2 * * *"
 
 jobs:
-  UpdateConfigs:
+  collect:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -30,12 +30,19 @@ jobs:
       - name: Run index.ts
         run: bun index.ts
 
+      - name: Ensure category artifact is uploadable
+        run: |
+          if [ -z "$(find category -type f 2>/dev/null | head -1)" ]; then
+            echo "no configs this run" > category/.empty
+          fi
+
       - name: Upload category artifact
         uses: actions/upload-artifact@v4
         with:
           name: category
           path: category/
           retention-days: 7
+          if-no-files-found: error
 
       - name: Commit BadChannels
         run: |
@@ -46,5 +53,140 @@ jobs:
             echo "No BadChannels changes to commit"
           else
             git commit -m "Update BadChannels"
+            git push
+          fi
+
+  send-telegram:
+    needs: collect
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Download category artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: category
+          path: category
+
+      - name: Collect new configs
+        id: collect
+        run: |
+          set -euo pipefail
+
+          PROTOCOL_FILES=(
+            category/vless.txt
+            category/vmess.txt
+            category/trojan.txt
+            category/ss.txt
+            category/wireguard.txt
+          )
+
+          mkdir -p .workflow
+          : > .workflow/new_configs.txt
+          : > .workflow/current_configs.txt
+
+          for file in "${PROTOCOL_FILES[@]}"; do
+            [ -f "$file" ] || continue
+            cat "$file" >> .workflow/current_configs.txt
+          done
+
+          if [ ! -s .workflow/current_configs.txt ]; then
+            echo "No configs in category artifact."
+            echo "count=0" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          sort -u .workflow/current_configs.txt -o .workflow/current_configs.txt
+          touch .github/last-sent-configs.txt
+          sort -u .github/last-sent-configs.txt -o .github/last-sent-configs.txt
+
+          comm -23 .workflow/current_configs.txt .github/last-sent-configs.txt \
+            > .workflow/new_configs.txt
+
+          count=$(wc -l < .workflow/new_configs.txt | tr -d ' ')
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+          echo "Found $count new config(s)."
+
+      - name: Send new configs to Telegram
+        if: steps.collect.outputs.count != '0'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "${TELEGRAM_BOT_TOKEN:-}" ] || [ -z "${TELEGRAM_CHAT_ID:-}" ]; then
+            echo "Missing TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID secrets."
+            exit 1
+          fi
+
+          send_message() {
+            local payload
+            payload=$(jq -n \
+              --arg chat_id "$TELEGRAM_CHAT_ID" \
+              --arg text "$1" \
+              '{chat_id: $chat_id, text: $text, disable_web_page_preview: true}')
+
+            local response http_code body
+            response=$(curl -sS -w "\n%{http_code}" -X POST \
+              "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+              -H "Content-Type: application/json" \
+              -d "$payload")
+            http_code=$(echo "$response" | tail -n1)
+            body=$(echo "$response" | sed '$d')
+
+            if [ "$http_code" != "200" ] || [ "$(echo "$body" | jq -r '.ok')" != "true" ]; then
+              echo "Telegram API error (HTTP $http_code): $body"
+              return 1
+            fi
+          }
+
+          header=$'🆕 کانفیگ\u200cهای جدید\n\n'
+          max_chars=3900
+          message="$header"
+          sent=0
+
+          while IFS= read -r line || [ -n "$line" ]; do
+            [ -z "$line" ] && continue
+
+            addition="${line}"$'\n\n'
+            if [ $(( ${#message} + ${#addition} )) -gt "$max_chars" ]; then
+              send_message "$message"
+              sent=$((sent + 1))
+              sleep 1
+              message="$header$addition"
+            else
+              message+="$addition"
+            fi
+          done < .workflow/new_configs.txt
+
+          if [ "$message" != "$header" ]; then
+            send_message "$message"
+            sent=$((sent + 1))
+          fi
+
+          footer=$'\n\n@v2rayng_free | #v2ray #vmess #vless'
+          summary="${header}تعداد ${sent} پیام ارسال شد.${footer}"
+          send_message "$summary"
+
+          echo "Sent $sent message batch(es) to Telegram."
+
+      - name: Update last-sent snapshot
+        if: steps.collect.outputs.count != '0'
+        run: |
+          cat .workflow/new_configs.txt >> .github/last-sent-configs.txt
+          sort -u .github/last-sent-configs.txt -o .github/last-sent-configs.txt
+
+          git config --local user.name "Robot-1"
+          git config --local user.email "Robot@example.com"
+          git add .github/last-sent-configs.txt
+          if git diff --staged --quiet; then
+            echo "Snapshot already up to date"
+          else
+            git commit -m "Update last-sent Telegram configs"
             git push
           fi
