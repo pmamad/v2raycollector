@@ -3,7 +3,7 @@ name: UpdateConfigs
 on:
   workflow_dispatch: # اجازه اجرای دستی
   schedule:
-    - cron: "30 0,2,4,6,8,10,12,14,16,18,20,22 * * *"
+    - cron: "30 */2 * * *"
 
 jobs:
   UpdateConfigs:
@@ -33,7 +33,7 @@ jobs:
       # Run the index.ts file
       - name: Run index.ts
         run: bun index.ts
-        
+
       # Commit changes
       - name: Commit Changes To UpdateConfigs
         run: |
