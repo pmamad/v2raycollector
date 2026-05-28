@@ -48,6 +48,8 @@ trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@104.17.101.139:443?sni=sni.111000.
 trojan://BxceQaOe@140.235.140.105:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%40vpn_mall | 🇸🇬 SG | 140.235.140.105
 trojan://ESYEIBhqTR@138.124.182.202:39141?mode=gun&security=reality&pbk=Fs_7mopOjYhbST1UIfhkwMEMG4d60WT7P6RiJLCvqBE&fp=chrome&type=grpc&sni=www.sony.com&sid=fd46#%40vpn_mall | 🇱🇻 LV | 138.124.182.202
 trojan://LightConfig@45.130.125.76:443?path=/?ed=2048&security=tls&alpn=http/1.1&insecure=1&fp=chrome&type=ws&allowInsecure=1&sni=www.app-cloud.ir#%40vpn_mall | 🇸🇨 SC | 45.130.125.76
+trojan://Tel:Arshiacomplus@45.154.96.35:14456?type=ws&security=tls&path=/jdjsjeje&host=oof.acp.us.ci&sni=oof.acp.us.ci&alpn=h2,http/1.1&fp=firefox&allowInsecure=1#%40vpn_mall | 🇫🇷 FR | 45.154.96.35
+trojan://Tel=Arshiacomplus@45.154.96.35:58035?type=xhttp&security=tls&path=/fkcidiekei&host=oof.acp.us.ci&mode=stream-one&sni=oof.acp.us.ci&alpn=h2,http/1.1&fp=firefox&allowInsecure=1#%40vpn_mall | 🇫🇷 FR | 45.154.96.35
 trojan://UnNurmal@45.130.125.76:443?path=/?ed=2048&security=tls&alpn=http/1.1&insecure=1&fp=chrome&type=ws&allowInsecure=1&sni=www.app-cloud.ir#%40vpn_mall | 🇸🇨 SC | 45.130.125.76
 trojan://humanity@104.17.121.71:443?path=/assignment&security=tls&host=www.creationlong.org&type=ws&sni=www.creationlong.org#%40vpn_mall | 🇨🇦 CA | 104.17.121.71
 trojan://humanity@104.17.121.71:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#%40vpn_mall | 🇨🇦 CA | 104.17.121.71
@@ -280,6 +282,7 @@ vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.27:80?path=/&security=no
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.37:443?encryption=none&host=tt.andishehparenting.com&path=/&security=none&type=ws#%40vpn_mall | 🇨🇦 CA | 172.64.146.37
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.43:80?path=/&security=none&encryption=none&host=tt.andishehparenting.com&type=ws#%40vpn_mall | 🇨🇦 CA | 172.64.146.43
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.255:80?path=/&security=&encryption=none&host=tt.andishehparenting.com&type=ws#%40vpn_mall | 🇨🇦 CA | 172.64.147.255
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.255:80?path=/&security=none&encryption=none&host=tt.andishehparenting.com&type=ws#%40vpn_mall | 🇨🇦 CA | 172.64.147.255
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.66.44.211:80/?type=ws&encryption=none&flow=&host=tt.andishehparenting.com#%40vpn_mall | 🇨🇦 CA | 172.66.44.211
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.66.44.211:80?security=&encryption=none&host=tt.andishehparenting.com&type=ws#%40vpn_mall | 🇨🇦 CA | 172.66.44.211
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.66.44.211:80?security=none&encryption=none&host=tt.andishehparenting.com&type=ws#%40vpn_mall | 🇨🇦 CA | 172.66.44.211
@@ -513,10 +516,12 @@ vless://c16c1cc7-62d3-48cb-9aba-58db58bf9b7a@snapp.ir:80?path=/&security=none&en
 vless://c16c1cc7-62d3-48cb-9aba-58db58bf9b7a@snapp.ir:80?path=/&security=none&encryption=none&host=simorgh.garfar.ir&type=ws#%40vpn_mall | 🇮🇷 IR | 185.143.234.122
 vless://c3609d69-b0ee-4676-bd72-2fe3db3fa9d5@178.63.7.152:4061?security=none&encryption=none&host=mci.ir&headerType=http&type=tcp#%40vpn_mall | 🇩🇪 DE | 178.63.7.152
 vless://c575c0fd-4833-4cba-937d-2342fd32544b@104.17.121.71:443?encryption=none&type=xhttp&security=tls&path=/index.html&host=de.vpncustomize.cc.cd&mode=stream-one&sni=de.vpncustomize.cc.cd&alpn=h2,http/1.1&fp=chrome&allowInsecure=0#%40vpn_mall | 🇨🇦 CA | 104.17.121.71
+vless://c575c0fd-4833-4cba-937d-2342fd32544b@104.17.121.71:443?encryption=none&type=xhttp&security=tls&path=/index.html&mode=stream-one&sni=de.vpncustomize.cc.cd&alpn=h2,http/1.1&fp=chrome&allowInsecure=0#%40vpn_mall | 🇨🇦 CA | 104.17.121.71
 vless://c575c0fd-4833-4cba-937d-2342fd32544b@104.17.121.71:443?mode=stream-one&path=/index.html&security=tls&alpn=h2,http/1.1&encryption=none&host=de.vpncustomize.cc.cd&fp=chrome&type=xhttp&sni=de.vpncustomize.cc.cd#%40vpn_mall | 🇨🇦 CA | 104.17.121.71
 vless://c575c0fd-4833-4cba-937d-2342fd32544b@104.17.121.71:443?mode=stream-one&path=/index.html&security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&host=de.vpncustomize.cc.cd&fp=chrome&type=xhttp&allowInsecure=0&sni=de.vpncustomize.cc.cd#%40vpn_mall | 🇨🇦 CA | 104.17.121.71
 vless://c575c0fd-4833-4cba-937d-2342fd32544b@104.17.121.71:443?mode=stream-one&path=/index.html&security=tls&encryption=none&alpn=h2,http/1.1&host=de.vpncustomize.cc.cd&fp=chrome&type=xhttp&sni=de.vpncustomize.cc.cd#%40vpn_mall | 🇨🇦 CA | 104.17.121.71
 vless://c575c0fd-4833-4cba-937d-2342fd32544b@104.17.121.71:443?security=tls&allowInsecure=0&encryption=none&type=xhttp&path=/index.html&sni=de.vpncustomize.cc.cd&fp=chrome&mode=stream-one&alpn=h2,http/1.1#%40vpn_mall | 🇨🇦 CA | 104.17.121.71
+vless://c575c0fd-4833-4cba-937d-2342fd32544b@45.130.125.69:443?mode=stream-one&path=/dev/api&security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&fp=chrome&type=xhttp&allowInsecure=0&sni=de.fbase.cc.cd#%40vpn_mall | 🇸🇨 SC | 45.130.125.69
 vless://c575c0fd-4833-4cba-937d-2342fd32544b@45.130.125.69:443?security=tls&allowInsecure=0&encryption=none&type=xhttp&path=/dev/api&sni=de.fbase.cc.cd&fp=chrome&mode=stream-one&alpn=h2,http/1.1#%40vpn_mall | 🇸🇨 SC | 45.130.125.69
 vless://c9fd0fb1-8251-4106-b09a-f4b426736f67@137.184.218.169:36925?security=reality&encryption=none&pbk=lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com#%40vpn_mall | 🇺🇸 US | 137.184.218.169
 vless://caa513fb-231b-4209-a5b1-9986102bc0a9@185.143.234.235:443?path=/api/v2/stream&security=tls&encryption=none&insecure=0&host=ns6.vasl.lol&fp=chrome&type=ws&allowInsecure=0&sni=ns6.vasl.lol#%40vpn_mall | 🇮🇷 IR | 185.143.234.235
