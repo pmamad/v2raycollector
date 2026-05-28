@@ -23,6 +23,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOVDItX0RZdUM3YlNDUTNwcW1ZZ2pDYTZNbVIyaTZERA=
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOVDItX0RZdUM3YlNDUTNwcW1ZZ2pDYTZNbVIyaTZERA@87.248.154.241:8088#%40vpn_mall | 🇮🇷 IR | 87.248.154.241
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOVDItX0RZdUM3YlNDUTNwcW1ZZ2pDYTZNbVIyaTZEREAxMDkuMTIyLjI1MS44NDo4MDgw#%40vpn_mall | 🏴‍☠️ UN | Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOVDItX0RZdUM3YlNDUTNwcW1ZZ2pDYTZNbVIyaTZEREAxMDkuMTIyLjI1MS44NDo4MDgw
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWM2l5cjNIVERBT0xxMVhuM0N6TUFD@176.97.65.164:8554/?outline=1#%40vpn_mall | 🇸🇬 SG | 176.97.65.164
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZdVJ0NkFYOVA0Tml1dFR3b0RNdkRUcnhJam9fbHNHcg@vip9.myspacex.shop:443#%40vpn_mall | 🇮🇷 IR | 213.176.6.145
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpncWtVQ3ZtZU9UZ2hZSlhGMVlJdWs1@71.19.148.74:443#%40vpn_mall | 🇺🇸 US | 71.19.148.74
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoY3h2MEN2VDE0WmtpNGIxcDFKOW5F@84.54.44.54:11270/?outline=1#%40vpn_mall | 🇷🇺 RU | 84.54.44.54
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.184:8080#%40vpn_mall | 🇳🇱 NL | 82.38.31.184
@@ -498,6 +499,7 @@ vless://InternetAzadRobot@151.101.1.57:80?security=none&encryption=none&headerTy
 vless://InternetAzadRobot@165.215.250.14:2087?encryption=none&type=xhttp&security=tls&path=/login&host=ws.kheybar.store&mode=auto&extra={"mode":"auto","Accept-Encoding":"gzip,+deflate,+br","Accept-Language":"en-US,en;q=0.9","Cache-Control":"no-cache",#%40vpn_mall | 🇺🇸 US | 165.215.250.14
 vless://InternetAzadRobot@199.232.57.91:80?encryption=none&security=none&type=xhttp&host=tignaltofan.global.ssl.fastly.net&path=/TignaliSWithYou&mode=auto&extra={"mode":"auto","scMaxEachPostBytes":"1000000","xPaddingBytes":"100-1000"}#%40vpn_mall | 🇬🇧 GB | 199.232.57.91
 vless://InternetAzadRobot@fastly.com:80?mode=auto&path=/tofan&security=none&encryption=none&extra={"xPaddingBytes":"100-1000"}&host=sv6tignal.global.ssl.fastly.net&type=xhttp#%40vpn_mall | 🇨🇦 CA | 151.101.1.57
+vless://InternetAzadRobot@fastly.com:80?mode=auto&path=/tofan&security=none&encryption=none&extra={"xPaddingBytes":"100-1000"}&host=sv6tignal.global.ssl.fastly.net&type=xhttp#%40vpn_mall | 🇨🇦 CA | 151.101.65.57
 vless://Tel:Arshiacomplus@185.171.202.76:42652?mode=stream-one&path=/skkwkqknsjejejwj&security=tls&alpn=h2,http/1.1&encryption=none&insecure=1&host=omm.kotlet.org&fp=firefox&type=xhttp&allowInsecure=1&sni=www.wikipedia.com#%40vpn_mall | 🇫🇷 FR | 185.171.202.76
 vless://Tel:Arshiacomplus@185.171.202.76:42652?mode=stream-one&path=/skkwkqknsjejejwj&security=tls&alpn=h2,http/1.1&encryption=none&insecure=1&host=omm.kotlet.org&fp=firefox&type=xhttp&allowInsecure=1&sni=yahoo.com#%40vpn_mall | 🇫🇷 FR | 185.171.202.76
 vless://Telegram-Parsashonam-1@104.17.121.71:443?mode=auto&path=/p4r34m&security=tls&alpn=h2,http/1.1&encryption=none&insecure=1&host=p4r34m.hendevaneh.sbs&fp=chrome&type=xhttp&allowInsecure=1&sni=p4r34m.hendevaneh.sbs#%40vpn_mall | 🇨🇦 CA | 104.17.121.71
@@ -645,6 +647,7 @@ vless://e258977b-e413-4718-a3af-02d75492c349@45.130.125.69:2096?path=/Channel---
 vless://e258977b-e413-4718-a3af-02d75492c349@45.130.125.69:443?encryption=none&type=ws&security=tls&path=/&host=jp.aniua.qzz.io&sni=jp.aniua.qzz.io&allowInsecure=0&ech=ip.gs+udp://8.8.8.8#%40vpn_mall | 🇸🇨 SC | 45.130.125.69
 vless://e258977b-e413-4718-a3af-02d75492c349@45.130.125.69:443?path=/&security=tls&encryption=none&host=jp.aniua.qzz.io&type=ws&sni=jp.aniua.qzz.io#%40vpn_mall | 🇸🇨 SC | 45.130.125.69
 vless://e258977b-e413-4718-a3af-02d75492c349@50.62.198.124:443?encryption=none&type=ws&security=tls&path=/&host=jp.aniua.qzz.io&sni=jp.aniua.qzz.io&allowInsecure=0&ech=ip.gs+udp://8.8.8.8#%40vpn_mall | 🇺🇸 US | 50.62.198.124
+vless://e258977b-e413-4718-a3af-02d75492c349@50.62.198.124:443?path=/&security=tls&encryption=none&host=jp.aniua.qzz.io&type=ws&sni=jp.aniua.qzz.io@oliver soul#%40vpn_mall | 🇺🇸 US | 50.62.198.124
 vless://e258977b-e413-4718-a3af-02d75492c349@50.62.198.124:443?path=/&security=tls&encryption=none&insecure=0&host=jp.aniua.qzz.io&ech=ip.gs+udp://8.8.8.8&type=ws&allowInsecure=0&sni=jp.aniua.qzz.io#%40vpn_mall | 🇺🇸 US | 50.62.198.124
 vless://e258977b-e413-4718-a3af-02d75492c349@69.84.182.49:2096?path=/ @ProxyVPN11&security=tls&encryption=none&insecure=0&host=jp.aniua.qzz.io&type=ws&allowInsecure=0&sni=jp.aniua.qzz.io#%40vpn_mall | 🇺🇸 US | 69.84.182.49
 vless://e258977b-e413-4718-a3af-02d75492c349@69.84.182.49:2096?path=/&security=tls&encryption=none&host=jp.aniua.qzz.io&type=ws&sni=jp.aniua.qzz.io#%40vpn_mall | 🇺🇸 US | 69.84.182.49
