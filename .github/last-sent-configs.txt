@@ -48,6 +48,7 @@ trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@104.17.101.139:443?sni=sni.111000.
 trojan://BxceQaOe@140.235.140.105:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%40vpn_mall | 🇸🇬 SG | 140.235.140.105
 trojan://ESYEIBhqTR@138.124.182.202:39141?mode=gun&security=reality&pbk=Fs_7mopOjYhbST1UIfhkwMEMG4d60WT7P6RiJLCvqBE&fp=chrome&type=grpc&sni=www.sony.com&sid=fd46#%40vpn_mall | 🇱🇻 LV | 138.124.182.202
 trojan://LightConfig@45.130.125.76:443?path=/?ed=2048&security=tls&alpn=http/1.1&insecure=1&fp=chrome&type=ws&allowInsecure=1&sni=www.app-cloud.ir#%40vpn_mall | 🇸🇨 SC | 45.130.125.76
+trojan://Mitivpn@104.17.121.71:443?type=ws&security=tls&path=/?ed=2048&host=cdn.hitgram.ir&sni=cdn.hitgram.ir&alpn=http/1.1&fp=chrome&allowInsecure=1#%40vpn_mall | 🇨🇦 CA | 104.17.121.71
 trojan://Tel:Arshiacomplus@45.154.96.35:14456?type=ws&security=tls&path=/jdjsjeje&host=oof.acp.us.ci&sni=oof.acp.us.ci&alpn=h2,http/1.1&fp=firefox&allowInsecure=1#%40vpn_mall | 🇫🇷 FR | 45.154.96.35
 trojan://Tel=Arshiacomplus@45.154.96.35:58035?type=xhttp&security=tls&path=/fkcidiekei&host=oof.acp.us.ci&mode=stream-one&sni=oof.acp.us.ci&alpn=h2,http/1.1&fp=firefox&allowInsecure=1#%40vpn_mall | 🇫🇷 FR | 45.154.96.35
 trojan://UnNurmal@45.130.125.76:443?path=/?ed=2048&security=tls&alpn=http/1.1&insecure=1&fp=chrome&type=ws&allowInsecure=1&sni=www.app-cloud.ir#%40vpn_mall | 🇸🇨 SC | 45.130.125.76
@@ -154,6 +155,7 @@ vless://200290dc-8698-4284-a6e5-0ffd91be8589@45.89.244.210:35750/?type=tcp&encry
 vless://200290dc-8698-4284-a6e5-0ffd91be8589@45.89.244.210:35750/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=cloudflare.com&security=reality&pbk=rtqKOfjHLaN8qzlOOGHXrxWnEoqzQKQLSi8ZGIMjVlQ&sid=01f43c37b8#🇳🇱 NL | 45.89.244.210
 vless://200290dc-8698-4284-a6e5-0ffd91be8589@45.89.244.210:35750?security=reality&encryption=none&pbk=rtqKOfjHLaN8qzlOOGHXrxWnEoqzQKQLSi8ZGIMjVlQ&host=@ProxyVPN11&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=cloudflare.com&sid=01f43c37b8#%40vpn_mall | 🇳🇱 NL | 45.89.244.210
 vless://2107b008-8a56-42a5-baf6-297d1e9072cd@45.130.125.76:8443?path=/@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia&security=tls&encryption=none&insecure=0&host=rU.cCnNx.Ir&type=ws&allowInsecure=0&sni=rU.cCnNx.Ir#%40vpn_mall | 🇸🇨 SC | 45.130.125.76
+vless://21f1af13-f6e9-4483-8a17-a521a665b335@germany.samanidempire.org:443?security=tls&allowInsecure=0&encryption=none&type=ws&host=germany.samanidempire.org&path=/reteweef&fp=chrome&alpn=h2,http/1.1#%40vpn_mall | 🇩🇪 DE | 136.244.91.42
 vless://2219a1b1-9290-4ac5-94fd-6cfc1fb25280@mx0wbu.sgvless.yydzx.xyz:443?security=reality&encryption=none&pbk=8mv22T5d1KHXlT1EQiQMcgbOZpwkospsUb8WLkuDsAA&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=deb.debian.org&sid=7994d24409820c44#%40vpn_mall | 🏴‍☠️ HK | 43.198.106.68
 vless://2219a1b1-9290-4ac5-94fd-6cfc1fb25280@mx0wbu.sgvless.yydzx.xyz:443?security=reality&encryption=none&pbk=8mv22T5d1KHXlT1EQiQMcgbOZpwkospsUb8WLkuDsAA&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=deb.debian.org&sid=7994d24409820c44#🏴‍☠️ HK | 43.198.106.68
 vless://2219a1b1-9290-4ac5-94fd-6cfc1fb25280@mx0wbu.sgvless.yydzx.xyz:443?security=reality&encryption=none&pbk=8mv22T5d1KHXlT1EQiQMcgbOZpwkospsUb8WLkuDsAA&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=deb.debian.org&sid=7994d24409820c44#🏴‍☠️ HK | 43.198.106.68%40vpn_mall
@@ -202,6 +204,7 @@ vless://28154b7e-afc2-449b-8a78-bf1eba31bd05@a.darafiq.ir:8880?path=/&security=n
 vless://28154b7e-afc2-449b-8a78-bf1eba31bd05@a.darafiq.ir:8880?path=/&security=none&encryption=none&type=ws#%40vpn_mall | 🇮🇷 IR | 185.143.234.234
 vless://28154b7e-afc2-449b-8a78-bf1eba31bd05@a.darafiq.ir:8880?path=/&security=none&encryption=none&type=ws#%40vpn_mall | 🇮🇷 IR | 193.176.240.126
 vless://28154b7e-afc2-449b-8a78-bf1eba31bd05@a.darafiq.ir:8880?path=/&security=none&encryption=none&type=ws#%40vpn_mall | 🇮🇷 IR | 193.176.240.127
+vless://28154b7e-afc2-449b-8a78-bf1eba31bd05@a.darafiq.ir:8880?path=/&security=none&encryption=none&type=ws#%40vpn_mall | 🇮🇷 IR | 193.176.240.128
 vless://28154b7e-afc2-449b-8a78-bf1eba31bd05@a.darafiq.ir:8880?path=/&security=none&encryption=none&type=ws#%40vpn_mall | 🏴‍☠️ UN | a.darafiq.ir
 vless://296bbba2-b100-4d91-b8df-3fe03cc863c4@91.225.217.28:443?security=reality&encryption=none&pbk=CnFVrSvJ1Mhl_6QqKCCvXtEdlaJjN4MXWBkSswJ_gX0&headerType=none&fp=chrome&spx=/&type=tcp&sni=yahoo.com&sid=106c#%40vpn_mall | 🇷🇸 RS | 91.225.217.28
 vless://2a2a8023-3b4b-407d-a00a-7beb5a158148@104.20.1.252:80?path=/?ed&security=none&encryption=none&host=shaggy-agreementspufz4utdi.sportland.company.&type=ws#%40vpn_mall | 🇨🇦 CA | 104.20.1.252
@@ -379,6 +382,7 @@ vless://6a719f2b-b629-462d-975a-9c0daa3edb75@chatgpt.com:2083?path=/&security=tl
 vless://6a719f2b-b629-462d-975a-9c0daa3edb75@chatgpt.com:2083?path=/&security=tls&encryption=none&insecure=1&host=raviddd.pages.dev&type=ws&allowInsecure=1&sni=rAviDdD.paGEs.DEv#🇬🇧 GB | 2a06:98c1:3100::6812:202f
 vless://6a719f2b-b629-462d-975a-9c0daa3edb75@chatgpt.com:2083?path=/&security=tls&encryption=none&insecure=1&host=raviddd.pages.dev&type=ws&allowInsecure=1&sni=rAviDdD.paGEs.DEv#🇬🇧 GB | 2a06:98c1:310b::ac40:9bd1
 vless://6bf2c61f-db69-4e00-9dc5-249b83e69d73@94.183.171.3:41314?security=none&type=tcp&host=bmw.com&headerType=http#%40vpn_mall | 🇮🇷 IR | 94.183.171.3
+vless://6c36723b-75a3-4816-9c19-1ccd3fde83fe@be.darknet.cv:443?security=reality&encryption=none&pbk=7r6oa-JKl3aj7i9b_AHgsitAXWJVFinBrZbqfi8XkEU&headerType=none&fp=firefox&spx=/&type=tcp&flow=xtls-rprx-vision&sni=cloudflare.com&sid=a1b323d4#%40vpn_mall | 🇩🇪 DE | 144.31.219.5
 vless://6d49fae1-374d-313e-b360-1227b0ea8dea@s662.ccgfw.top:443?encryption=none&type=tcp&host=s662.ccgfw.top&flow=xtls-rprx-vision&security=tls&sni=u712032us662.ccgfw.top#🇩🇪 DE | 185.230.162.56
 vless://6d7604f2-c1e9-46ec-a12f-f28c3bb59131@useredge1.noroozmobarak.com:8880?path=/webpanel?ed=2560&security=none&encryption=none&host=gostar25.ir2charkh.com&type=ws#%40vpn_mall | 🇮🇷 IR | 185.143.235.201
 vless://6f0eadef-2351-4c59-b5d2-5e9d75f69414@snapp.ir:80?type=ws&path=/&host=kabotar.garfar.ir&security=none#%40vpn_mall | 🇮🇷 IR | 185.143.234.122
@@ -473,6 +477,7 @@ vless://9cbd238d-6a56-419a-bdc5-101fdab421ad@fra.gorhub.ru:443?security=reality&
 vless://9cdf541f-b8a0-4270-8d31-542bb0961485@snapp.ir:80?path=/&security=&encryption=none&host=sidipv.naxd.ir&type=ws#%40vpn_mall | 🇮🇷 IR | 185.143.234.122
 vless://9ebab373-19fe-4535-aa95-4e348ea300f1@46.235.186.50:443?path=/ws&security=tls&encryption=none&insecure=0&host=s28315.cdn.ngenix.net&type=ws&allowInsecure=0&sni=s28315.cdn.ngenix.net#🇷🇺 RU | 46.235.186.50
 vless://9ebab373-19fe-4535-aa95-4e348ea300f1@78.41.110.238:443?path=/ws&security=tls&encryption=none&insecure=0&host=s28315.cdn.ngenix.net&type=ws&allowInsecure=0&sni=s28315.cdn.ngenix.net#%40vpn_mall | 🇷🇺 RU | 78.41.110.238
+vless://9efbd9eb-13fa-4344-9edc-338d3af00349@tr3.darazen.ir:443?path=/tr3&security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&host=tr3.darazen.ir&fp=chrome&type=ws&allowInsecure=0&sni=tr3.darazen.ir#%40vpn_mall | 🇬🇧 GB | 2a06:98c1:3121::
 vless://9fcfbe37-eea0-4c76-8784-327b34a6ce5b@cd2.phoneshop98.ir:2053?encryption=none&type=ws&security=tls&path=/ws?ed=2560&host=c2.pcapps.ir&sni=c2.pcapps.ir&alpn=h3,h2,http/1.1&fp=chrome&allowInsecure=1#%40vpn_mall | 🇩🇪 DE | 45.80.111.1
 vless://InternetAzadRobot@146.75.117.91:80?mode=auto&path=/Tignal&security=none&encryption=none&host=tignaltofansv4.global.ssl.fastly.net&type=xhttp#%40vpn_mall | 🇩🇪 DE | 146.75.117.91
 vless://InternetAzadRobot@151.101.1.57:80?encryption=none&security=none&type=xhttp&host=tignaltofansv4.global.ssl.fastly.net&path=/Tignal&mode=auto&extra={"xPaddingBytes":"100-1000"}#%40vpn_mall | 🇨🇦 CA | 151.101.1.57
@@ -620,6 +625,7 @@ vless://e0b4566b-3333-4c50-9381-ba3570bee83f@95.182.83.251:2082?path=/OninOShop&
 vless://e234245f-b66e-4eef-b8cb-6298500221ba@104.17.121.71:443?encryption=none&type=xhttp&security=tls&path=/&host=panel-free.emergency-service.org&mode=auto&sni=panel-free.emergency-service.org&alpn=h2,http/1.1&fp=chrome&allowInsecure=1#%40vpn_mall | 🇨🇦 CA | 104.17.121.71
 vless://e258977b-e413-4718-a3af-02d75492c349@14.102.228.76:2096?encryption=none&type=ws&security=tls&path=/&host=jp.aniua.qzz.io&sni=jp.aniua.qzz.io&allowInsecure=1#%40vpn_mall | 🇨🇿 CZ | 14.102.228.76
 vless://e258977b-e413-4718-a3af-02d75492c349@172.64.47.168:2096?path=/&security=tls&encryption=none&insecure=0&host=jp.aniua.qzz.io&type=ws&allowInsecure=0&sni=jp.aniua.qzz.io#%40vpn_mall | 🇨🇦 CA | 172.64.47.168
+vless://e258977b-e413-4718-a3af-02d75492c349@45.130.125.69:2096?path=/Channel----@VPNCUSTOMIZE&security=tls&encryption=none&insecure=0&host=jp.aniua.qzz.io&fp=chrome&type=ws&allowInsecure=0&sni=jp.aniua.qzz.io#%40vpn_mall | 🇸🇨 SC | 45.130.125.69
 vless://e258977b-e413-4718-a3af-02d75492c349@45.130.125.69:443?encryption=none&type=ws&security=tls&path=/&host=jp.aniua.qzz.io&sni=jp.aniua.qzz.io&allowInsecure=0&ech=ip.gs+udp://8.8.8.8#%40vpn_mall | 🇸🇨 SC | 45.130.125.69
 vless://e258977b-e413-4718-a3af-02d75492c349@45.130.125.69:443?path=/&security=tls&encryption=none&host=jp.aniua.qzz.io&type=ws&sni=jp.aniua.qzz.io#%40vpn_mall | 🇸🇨 SC | 45.130.125.69
 vless://e258977b-e413-4718-a3af-02d75492c349@50.62.198.124:443?encryption=none&type=ws&security=tls&path=/&host=jp.aniua.qzz.io&sni=jp.aniua.qzz.io&allowInsecure=0&ech=ip.gs+udp://8.8.8.8#%40vpn_mall | 🇺🇸 US | 50.62.198.124
