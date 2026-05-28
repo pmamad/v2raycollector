@@ -47,8 +47,10 @@ vless://231a569a-55f0-4d31-94ac-dbe4bed3efdb@gzrefad01.odxxplay.com:3414?allowIn
 vless://231a569a-55f0-4d31-94ac-dbe4bed3efdb@gzrefad01.odxxplay.com:3414?allowInsecure=1&sni=au1.fun88linkvn.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#%40vpn_mall | 🇲🇾 MY | 85.211.244.158
 vless://231a569a-55f0-4d31-94ac-dbe4bed3efdb@gzrefad01.odxxplay.com:52877?allowInsecure=1&sni=vn1.fun88linkvn.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#%40vpn_mall | 🇮🇩 ID | 70.153.145.228
 vless://231a569a-55f0-4d31-94ac-dbe4bed3efdb@gzrefad01.odxxplay.com:52877?allowInsecure=1&sni=vn1.fun88linkvn.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#%40vpn_mall | 🇲🇾 MY | 85.211.244.158
+vless://231a569a-55f0-4d31-94ac-dbe4bed3efdb@gzrefad01.odxxplay.com:52877?allowInsecure=1&sni=vn1.fun88linkvn.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#%40vpn_mall | 🇲🇾 MY | 85.211.248.45
 vless://231a569a-55f0-4d31-94ac-dbe4bed3efdb@gzrefad01.odxxplay.com:57009?allowInsecure=1&sni=th1.fun88linkvn.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#%40vpn_mall | 🇮🇩 ID | 70.153.147.51
 vless://231a569a-55f0-4d31-94ac-dbe4bed3efdb@gzrefad01.odxxplay.com:57009?allowInsecure=1&sni=th1.fun88linkvn.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#%40vpn_mall | 🇯🇵 JP | 136.110.100.253
+vless://231a569a-55f0-4d31-94ac-dbe4bed3efdb@gzrefad01.odxxplay.com:57009?allowInsecure=1&sni=th1.fun88linkvn.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#%40vpn_mall | 🇲🇾 MY | 85.211.253.163
 vless://231a569a-55f0-4d31-94ac-dbe4bed3efdb@gzrefad01.odxxplay.com:60340?allowInsecure=1&sni=in1.fun88linkvn.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#%40vpn_mall | 🇮🇩 ID | 70.153.147.51
 vless://231a569a-55f0-4d31-94ac-dbe4bed3efdb@gzrefad01.odxxplay.com:60340?allowInsecure=1&sni=in1.fun88linkvn.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#%40vpn_mall | 🇲🇾 MY | 85.211.244.158
 vless://231a569a-55f0-4d31-94ac-dbe4bed3efdb@gzrefad01.odxxplay.com:60396?allowInsecure=1&sni=fr1.fun88linkvn.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#%40vpn_mall | 🇮🇩 ID | 70.153.147.51
