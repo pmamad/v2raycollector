@@ -4,6 +4,8 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUld3WGh3ZkFCNWdBRW96VTRHMlBn@193.29.139.143:8080#%40vpn_mall | 🇳🇱 NL | 193.29.139.143
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyQzZQT0ZMZ3VaTlBFdU5oMjdyUmp1@45.83.130.96:51847/?outline=1#%40vpn_mall | 🇸🇮 SI | 45.83.130.96
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5S1ZNb0IzQXdpVEV6bnBub3EyRllS@193.47.60.186:28687#%40vpn_mall | 🇫🇮 FI | 193.47.60.186
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@193.135.174.135:990#%40vpn_mall | 🇧🇬 BG | 193.135.174.135
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@193.135.174.135:990#%40vpn_mall | 🇧🇬 BG | 193.135.174.135
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFUjJ4Q2NKa21SMXBmdG1OMzAwQ05K@62.60.233.226:62763?#🇹🇷 TR | 62.60.233.226%40vpn_mall
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHbnpXUkFKTGlvYnB0MEJpaUVQTFNU@130.0.233.100:33610/?outline=1#%40vpn_mall | 🇺🇦 UA | 130.0.233.100
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpIOG5CMnRGdklKUUFtUGVq@20.87.107.99:443#%40vpn_mall | 🇿🇦 ZA | 20.87.107.99
@@ -77,6 +79,7 @@ vless://06b65903-406d-4a41-8463-6fd5c0ee7798@43.169.18.179:443?path=/proxyip&sec
 vless://06b65903-406d-4a41-8463-6fd5c0ee7798@43.169.18.179:443?path=/proxyip&security=tls&encryption=none&insecure=0&host=sni.skylee4.cloudns.ch&fp=chrome&type=ws&allowInsecure=0&sni=sni.skylee4.cloudns.ch#%40vpn_mall | 🇨🇳 CN | 43.169.18.179
 vless://06b65903-406d-4a41-8463-6fd5c0ee7798@43.169.18.179:443?path=/proxyip&security=tls&encryption=none&insecure=0=-@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann&host=sni.skylee4.cloudns.ch&fp=chrome&type=ws&allowInsecure=0&sni=sni.skylee4.cloudns.ch#%40vpn_mall | 🇨🇳 CN | 43.169.18.179
 vless://06ef598c-1555-4887-b3f9-08214a2f6792@104.18.139.67:443?path=/222.167.202.31:7443/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&insecure=0&host=2026.hhhhh.eu.org&type=ws&allowInsecure=0&sni=2026.hhhhh.eu.org#%40vpn_mall | 🇨🇦 CA | 104.18.139.67
+vless://06ef598c-1555-4887-b3f9-08214a2f6792@104.18.139.67:443?path=/222.167.202.31:7443/?TELEGRAM-vpnserverrr_vpnserverrr_vpnserverrr_vpnserverrr_vpnserverrr?ed=512&security=tls&encryption=none&insecure=0&host=2026.hhhhh.eu.org&type=ws&allowInsecure=0&sni=2026.hhhhh.eu.org#%40vpn_mall | 🇨🇦 CA | 104.18.139.67
 vless://07e326bb-801c-49fc-9005-d2a3e9673e89@84.200.33.81:2056/?type=tcp&encryption=none&flow=#🇩🇪 DE | 84.200.33.81
 vless://09627a91-8d28-4bc3-b409-6359002d8fbb@18.185.37.5:443?security=&encryption=none&headerType=none&type=tcp#%40vpn_mall | 🇩🇪 DE | 18.185.37.5
 vless://0e0bd555-4d21-485c-90a4-bb0b497c002a@104.18.32.47:2096?mode=gun&security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&fp=chrome&type=grpc&serviceName=presstv.ir.iribnews.ir.tasnimnews.com.irannewsdaily.com.ifpnews.com.kayhan.ir.irdiplomacy.ir&allowInsecure=0&sni=cOMpASSioNAte-INtEntIOnr55Et2c87l.carbONBLACKBMW.IR#%40vpn_mall | 🇨🇦 CA | 104.18.32.47
@@ -115,6 +118,7 @@ vless://231a569a-55f0-4d31-94ac-dbe4bed3efdb@gzrefad01.odxxplay.com:60396?allowI
 vless://256c5f48-4908-4255-83d1-c86cb58f22b4@185.171.202.48:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fr.denditop.site&allowInsecure=1&fp=chrome&security=reality&pbk=wgoLhL4pRP0y6fu6He4qW_ElohCM_ANWJF3HEoUhNz4&sid=9c2378562188c3cb#🇫🇷 FR | 185.171.202.48
 vless://27f53c0d17f643f49beef32ebc162197@134.17.17.142:443?security=reality&sni=yandex.by&alpn=h2&fp=random&pbk=m-G7NikLnHrouK8N-AUiELl18DLjgi3r89moI1mHS30&sid=aabbccdd&type=tcp&flow=xtls-rprx-vision&encryption=none#%40vpn_mall | 🇧🇾 BY | 134.17.17.142
 vless://280d88166b244f72a83fbacbc9dd6c38@91.238.180.132:443?security=reality&sni=champagne.fr&alpn=h2&fp=random&pbk=XJ9nSpAPAWe_a-7BT3vdudl0zgB81KqtV3Hm5qNOLF8&sid=aabbccdd&type=tcp&flow=xtls-rprx-vision&encryption=none#%40vpn_mall | 🇫🇷 FR | 91.238.180.132
+vless://28154b7e-afc2-449b-8a78-bf1eba31bd05@a.darafiq.ir:8880?path=/&security=&encryption=none&type=ws#%40vpn_mall | 🇮🇷 IR | 193.176.240.126
 vless://28154b7e-afc2-449b-8a78-bf1eba31bd05@a.darafiq.ir:8880?path=/&security=none&encryption=none&type=ws#%40vpn_mall | 🇮🇷 IR | 185.143.233.234
 vless://28154b7e-afc2-449b-8a78-bf1eba31bd05@a.darafiq.ir:8880?path=/&security=none&encryption=none&type=ws#%40vpn_mall | 🇮🇷 IR | 185.143.234.234
 vless://28154b7e-afc2-449b-8a78-bf1eba31bd05@a.darafiq.ir:8880?path=/&security=none&encryption=none&type=ws#%40vpn_mall | 🇮🇷 IR | 193.176.240.126
@@ -308,6 +312,7 @@ vless://9cdf541f-b8a0-4270-8d31-542bb0961485@snapp.ir:80?path=/&security=&encryp
 vless://9ebab373-19fe-4535-aa95-4e348ea300f1@46.235.186.50:443?path=/ws&security=tls&encryption=none&insecure=0&host=s28315.cdn.ngenix.net&type=ws&allowInsecure=0&sni=s28315.cdn.ngenix.net#🇷🇺 RU | 46.235.186.50
 vless://9ebab373-19fe-4535-aa95-4e348ea300f1@78.41.110.238:443?path=/ws&security=tls&encryption=none&insecure=0&host=s28315.cdn.ngenix.net&type=ws&allowInsecure=0&sni=s28315.cdn.ngenix.net#%40vpn_mall | 🇷🇺 RU | 78.41.110.238
 vless://9fcfbe37-eea0-4c76-8784-327b34a6ce5b@cd2.phoneshop98.ir:2053?encryption=none&type=ws&security=tls&path=/ws?ed=2560&host=c2.pcapps.ir&sni=c2.pcapps.ir&alpn=h3,h2,http/1.1&fp=chrome&allowInsecure=1#%40vpn_mall | 🇩🇪 DE | 45.80.111.1
+vless://InternetAzadRobot@151.101.1.57:80?encryption=none&security=none&type=xhttp&host=tignaltofansv4.global.ssl.fastly.net&path=/Tignal&mode=auto&extra={"xPaddingBytes":"100-1000"}#%40vpn_mall | 🇨🇦 CA | 151.101.1.57
 vless://InternetAzadRobot@151.101.1.57:80?mode=auto&path=/Tignal&security=&encryption=none&extra={"xPaddingBytes":"100-1000"}&host=tignaltofansv5.global.ssl.fastly.net&type=xhttp#%40vpn_mall | 🇨🇦 CA | 151.101.1.57
 vless://InternetAzadRobot@151.101.1.57:80?mode=auto&path=/TignaliSWithYou&security=none&encryption=none&extra={"mode":"auto","scMaxEachPostBytes":"1000000","xPaddingBytes":"100-1000"}&host=tignaltofan.global.ssl.fastly.net&type=xhttp#%40vpn_mall | 🇨🇦 CA | 151.101.1.57
 vless://InternetAzadRobot@151.101.1.57:80?security=none&encryption=none&headerType=none&type=tcp#%40vpn_mall | 🇨🇦 CA | 151.101.1.57
@@ -351,6 +356,8 @@ vless://b0067fed-b123-4837-2574-e806b5683082@me2.atrisacoffe.ir:80?path=/&securi
 vless://b05be96a-4fed-407e-9f43-516b93fe2fa4@91.206.177.220:8181?security=none&encryption=none&headerType=none&type=tcp#%40vpn_mall | 🇮🇷 IR | 91.206.177.220
 vless://b05be96a-4fed-407e-9f43-516b93fe2fa4@91.206.177.220:8181?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 IR | 91.206.177.220
 vless://b05be96a-4fed-407e-9f43-516b93fe2fa4@91.206.177.220:8181?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 IR | 91.206.177.220%40vpn_mall
+vless://b080e247-2cc6-4d0d-b638-9ea3bcf0f59e@Com4.hozheen.com:2096?path=/ws?ed=#%40vpn_mall | 🏴‍☠️ CW | 45.81.58.159
+vless://b080e247-2cc6-4d0d-b638-9ea3bcf0f59e@com001.hozheen.com:2096?path=/ws?ed=#%40vpn_mall | 🇨🇦 CA | 104.16.7.70
 vless://b080e247-2cc6-4d0d-b638-9ea3bcf0f59e@com3.hozheen.com:2096?path=/ws?ed=#%40vpn_mall | 🇨🇦 CA | 104.16.7.70
 vless://b1b24586-cccf-458d-b125-d621c3710676@pl1.astrocore.cloud:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=X2Sb6CKcI_yEV4gu9KUAmL9mcL-xpC1Ngks06NYIaxw&security=reality&sid=f129f93e&sni=pl1.astrocore.cloud&type=tcp#%40vpn_mall | 🇵🇱 PL | 149.50.105.50
 vless://b1f99cd9-0b45-4cf1-8117-930fd1557473@104.17.144.16:80?path=/?ed=2048&security=none&encryption=none&host=lingering-star-1086.wixal14993.workers.dev&type=ws#%40vpn_mall | 🇨🇦 CA | 104.17.144.16
@@ -362,7 +369,9 @@ vless://b1f99cd9-0b45-4cf1-8117-930fd1557473@cf.877771.xyz:80?path=/?ed=2048&sec
 vless://b6083a84-80a5-3e88-9dbb-5c8ef241be3a@212.192.14.50:61825?type=grpc&headerType=none&security=reality&encryption=none&sni=github.com&pbk=G8hjZomMXOCmbVboqMiuf2sVvcnihjQ4BdyVo3XewW4&sid=6bcde426&serviceName=newinsight#%40vpn_mall | 🇷🇺 RU | 212.192.14.50
 vless://b6083a84-80a5-3e88-9dbb-5c8ef241be3a@84.201.187.42:443/?type=tcp&encryption=none&flow=&sni=ads.x5.ru&fp=chrome&security=reality&pbk=8zVjmI0JrsjZBlImD8TbPAb_de26b_YKRARmp-T_eH4&sid=6b26829083#🇷🇺 RU | 84.201.187.42
 vless://b64ced11-143e-4ded-a985-a8de25461061@3.27.234.120:51808?security=reality&encryption=none&pbk=XHnwfyEySdx57QT_8P_7vDVFzdLHO4tO9BQOsHxxlEk&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=8810c789eea55c28#%40vpn_mall | 🇦🇺 AU | 3.27.234.120
+vless://b64ced11-143e-4ded-a985-a8de25461061@3.27.234.120:51808?security=reality&encryption=none&pbk=XHnwfyEySdx57QT_8P_7vDVFzdLHO4tO9BQOsHxxlEk&host=/?BIA_TELEGRAM@vpnserverrr_vpnserverrr_vpnserverrr_vpnserverrr_vpnserverrr&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=8810c789eea55c28#%40vpn_mall | 🇦🇺 AU | 3.27.234.120
 vless://b7aed4ed-f2de-4477-ad5a-1c56a9e9c6ec@net2.smartfast.com.tr:8443?path=/?ed=2560&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=ge-shop.lockfast.com.tr&fp=random&type=ws&allowInsecure=0&sni=ge-shop.lockfast.com.tr#%40vpn_mall | 🇺🇸 US | 63.141.128.5
+vless://b964e5e8-29d5-4f60-ae56-cea1907240c1@185.143.233.5:2052?encryption=none&host=p1.sesrsa.com&path=/&security=none&type=ws#%40vpn_mall | 🇮🇷 IR | 185.143.233.5
 vless://bb654318-0594-4ce2-a5a6-65e11830248a@185.143.233.122:80?encryption=none&host=de.online-python.ir&path=/&security=none&type=ws#🇮🇷 IR | 185.143.233.122
 vless://bd31a135-8511-421d-a6b7-45937ef59e88@95.216.209.22:443?security=none&encryption=none&headerType=none&type=tcp#%40vpn_mall | 🇫🇮 FI | 95.216.209.22
 vless://bd872608-c747-4e04-9357-6c6577e79fd8@85.9.121.93:64828?security=tls&sni=parsi.zarghamportal.ir&type=ws&host=parsi.zarghamportal.ir&path=/&fp=chrome&alpn=h2,http/1.1&allowInsecure=0#%40vpn_mall | 🇮🇷 IR | 85.9.121.93
@@ -372,10 +381,13 @@ vless://c16c1cc7-62d3-48cb-9aba-58db58bf9b7a@snapp.ir:80?path=/&security=none&en
 vless://c16c1cc7-62d3-48cb-9aba-58db58bf9b7a@snapp.ir:80?path=/&security=none&encryption=none&host=simorgh.garfar.ir&type=ws#%40vpn_mall | 🇮🇷 IR | 185.143.234.122
 vless://c575c0fd-4833-4cba-937d-2342fd32544b@104.17.121.71:443?encryption=none&type=xhttp&security=tls&path=/index.html&host=de.vpncustomize.cc.cd&mode=stream-one&sni=de.vpncustomize.cc.cd&alpn=h2,http/1.1&fp=chrome&allowInsecure=0#%40vpn_mall | 🇨🇦 CA | 104.17.121.71
 vless://c575c0fd-4833-4cba-937d-2342fd32544b@104.17.121.71:443?mode=stream-one&path=/index.html&security=tls&alpn=h2,http/1.1&encryption=none&host=de.vpncustomize.cc.cd&fp=chrome&type=xhttp&sni=de.vpncustomize.cc.cd#%40vpn_mall | 🇨🇦 CA | 104.17.121.71
+vless://c575c0fd-4833-4cba-937d-2342fd32544b@104.17.121.71:443?mode=stream-one&path=/index.html&security=tls&encryption=none&alpn=h2,http/1.1&host=de.vpncustomize.cc.cd&fp=chrome&type=xhttp&sni=de.vpncustomize.cc.cd#%40vpn_mall | 🇨🇦 CA | 104.17.121.71
 vless://caa513fb-231b-4209-a5b1-9986102bc0a9@185.143.234.235:443?path=/api/v2/stream&security=tls&encryption=none&insecure=0&host=ns6.vasl.lol&fp=chrome&type=ws&allowInsecure=0&sni=ns6.vasl.lol#%40vpn_mall | 🇮🇷 IR | 185.143.234.235
 vless://ccbbd3a3-db22-4f82-956e-d65178de2743@88.210.9.69:443?encryption=none&type=tcp&security=reality&headerType=none&sni=images.apple.com&fp=chrome&allowInsecure=1&pbk=aQdv6gDmsVZc5dO1WmmEQ6Q_puJhNUurND-TJJjtCSs&sid=8f2c0e7a15bd&flow=xtls-rprx-vision#%40vpn_mall | 🇳🇱 NL | 88.210.9.69
 vless://ce069292-c8bf-40dd-a6b1-87818a1e64e9@134.122.194.186:443?path=/fp&;security=tls&;encryption=none&;insecure=0&;host=2-ee1.pages.dev&;type=ws&;allowInsecure=0&;sni=2-ee1.pages.dev#%40vpn_mall | 🇯🇵 JP | 134.122.194.186
 vless://ce069292-c8bf-40dd-a6b1-87818a1e64e9@ip.sb:443?path=/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&insecure=0&host=3-7ny.pages.dev&type=ws&allowInsecure=0&sni=3-7ny.pages.dev#%40vpn_mall | 🇨🇦 CA | 104.26.12.31
+vless://ce069292-c8bf-40dd-a6b1-87818a1e64e9@ip.sb:443?path=/?TELEGRAM-vpnserverrr_vpnserverrr_vpnserverrr_vpnserverrr_vpnserverrr?ed=512&security=tls&encryption=none&insecure=0&host=3-7ny.pages.dev&type=ws&allowInsecure=0&sni=3-7ny.pages.dev#%40vpn_mall | 🇨🇦 CA | 104.26.12.31
+vless://ce069292-c8bf-40dd-a6b1-87818a1e64e9@ip.sb:443?path=/?TELEGRAM-vpnserverrr_vpnserverrr_vpnserverrr_vpnserverrr_vpnserverrr?ed=512&security=tls&encryption=none&insecure=0&host=3-7ny.pages.dev&type=ws&allowInsecure=0&sni=3-7ny.pages.dev#%40vpn_mall | 🇨🇦 CA | 2606:4700:20::ac43:4bac
 vless://d0666e7a-3036-458a-9435-1c54dfe01f2d@snapp.ir:80?path=/&security=none&encryption=none&host=simorgh.garfar.ir&type=ws#%40vpn_mall | 🇮🇷 IR | 185.143.233.122
 vless://d0666e7a-3036-458a-9435-1c54dfe01f2d@snapp.ir:80?path=/&security=none&encryption=none&host=simorgh.garfar.ir&type=ws#%40vpn_mall | 🇮🇷 IR | 185.143.234.122
 vless://d114911d-4249-4aa3-b27b-c4f1989b34fd@91.107.159.92:29810?security=none&encryption=none&headerType=none&type=tcp#%40vpn_mall | 🇩🇪 DE | 91.107.159.92
