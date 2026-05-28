@@ -188,6 +188,7 @@ vless://8ccf3357-9d06-4701-a77a-63d89c402230@195.216.169.218:443?security=none&e
 vless://8ccf3357-9d06-4701-a77a-63d89c402230@195.216.169.218:443?security=none&encryption=none&headerType=none&type=tcp#🇫🇷 FR | 195.216.169.218
 vless://8ccf3357-9d06-4701-a77a-63d89c402230@195.216.169.218:443?security=none&encryption=none&headerType=none&type=tcp#🇫🇷 FR | 195.216.169.218%40vpn_mall
 vless://8e6d6d70-5f7e-4f2c-89b6-8f5f8db4c3a1@104.16.7.70:443?mode=auto&path=/&security=tls&alpn=h3,h2,http/1.1&encryption=none&host=chatgpt.g9q.fun&fp=chrome&type=xhttp&sni=chatgpt.g9q.fun#%40vpn_mall | 🇨🇦 CA | 104.16.7.70
+vless://8e6d6d70-5f7e-4f2c-89b6-8f5f8db4c3a1@104.16.7.70:443?mode=auto&path=/&security=tls&alpn=h3,h2,http/1.1&encryption=none&insecure=0&host=chatgpt.g9q.fun&fp=chrome&type=xhttp&allowInsecure=0&sni=chatgpt.g9q.fun#%40vpn_mall | 🇨🇦 CA | 104.16.7.70
 vless://8f262ad8-4857-4fa2-8e02-f4c6ff893dae@snapp.ir:80?type=ws&encryption=none&path=/&host=sv1.vexnetvps.site&security=none#%40vpn_mall | 🇮🇷 IR | 185.143.233.122
 vless://8f262ad8-4857-4fa2-8e02-f4c6ff893dae@snapp.ir:80?type=ws&encryption=none&path=/&host=sv1.vexnetvps.site&security=none#%40vpn_mall | 🇮🇷 IR | 185.143.234.122
 vless://91e120bc-159a-4390-b4e1-197b19602ea0@5.178.101.149:443?sni=sub.sbrf-cdn342.ru&flow=xtls-rprx-vision-udp443&fp=qq&security=tls#%40vpn_mall | 🇩🇪 DE | 5.178.101.149
@@ -238,6 +239,7 @@ vless://afcac633-0e1a-46c3-bef2-cc01cc0097c8@85.234.114.53:443/?type=tcp&encrypt
 vless://b05be96a-4fed-407e-9f43-516b93fe2fa4@91.206.177.220:8181?security=none&encryption=none&headerType=none&type=tcp#%40vpn_mall | 🇮🇷 IR | 91.206.177.220
 vless://b05be96a-4fed-407e-9f43-516b93fe2fa4@91.206.177.220:8181?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 IR | 91.206.177.220
 vless://b05be96a-4fed-407e-9f43-516b93fe2fa4@91.206.177.220:8181?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 IR | 91.206.177.220%40vpn_mall
+vless://b1f99cd9-0b45-4cf1-8117-930fd1557473@104.17.144.16:80?path=/?ed=2048&security=none&encryption=none&host=lingering-star-1086.wixal14993.workers.dev&type=ws#%40vpn_mall | 🇨🇦 CA | 104.17.144.16
 vless://b6083a84-80a5-3e88-9dbb-5c8ef241be3a@212.192.14.50:61825?type=grpc&headerType=none&security=reality&encryption=none&sni=github.com&pbk=G8hjZomMXOCmbVboqMiuf2sVvcnihjQ4BdyVo3XewW4&sid=6bcde426&serviceName=newinsight#%40vpn_mall | 🇷🇺 RU | 212.192.14.50
 vless://b6083a84-80a5-3e88-9dbb-5c8ef241be3a@84.201.187.42:443/?type=tcp&encryption=none&flow=&sni=ads.x5.ru&fp=chrome&security=reality&pbk=8zVjmI0JrsjZBlImD8TbPAb_de26b_YKRARmp-T_eH4&sid=6b26829083#🇷🇺 RU | 84.201.187.42
 vless://bb654318-0594-4ce2-a5a6-65e11830248a@185.143.233.122:80?encryption=none&host=de.online-python.ir&path=/&security=none&type=ws#🇮🇷 IR | 185.143.233.122
@@ -262,6 +264,7 @@ vless://df8bdad4-a516-afa0-7b88-e51ae3422897@31.25.95.236:443?security=reality&e
 vless://e01596c9-41ea-4af1-94e1-8d5958e6c317@193.151.129.100:30177?encryption=none&security=none&type=tcp#%40vpn_mall | 🇮🇷 IR | 193.151.129.100
 vless://e0b4566b-3333-4c50-9381-ba3570bee83f@95.182.83.251:2082?path=/OninOShop&security=none&encryption=none&host=95.182.83.251&type=ws#%40vpn_mall | 🇷🇺 RU | 95.182.83.251
 vless://e234245f-b66e-4eef-b8cb-6298500221ba@104.17.121.71:443?encryption=none&type=xhttp&security=tls&path=/&host=panel-free.emergency-service.org&mode=auto&sni=panel-free.emergency-service.org&alpn=h2,http/1.1&fp=chrome&allowInsecure=1#%40vpn_mall | 🇨🇦 CA | 104.17.121.71
+vless://e346f220-4ca4-4f69-a66b-52e992b3b625@138.124.186.202:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&security=reality&sni=www.fh-aachen.de&type=tcp#%40vpn_mall | 🇷🇺 RU | 138.124.186.202
 vless://e67deb5e-ba4b-469b-9da7-32adc254b2de@snapp.ir:80?path=/&security=none&encryption=none&host=e.cafeazin.ir&type=ws#%40vpn_mall | 🇮🇷 IR | 185.143.233.122
 vless://e9acee17-7307-4ceb-b86f-35c12ce0dd77@95.182.97.249:443?type=ws&encryption=none&path=/&host=&security=none#🇫🇷 FR | 95.182.97.249
 vless://ea6d8aae-4ccb-4f9a-afdc-1abf53860930@94.183.149.237:8080?type=tcp#%40vpn_mall | 🇮🇷 IR | 94.183.149.237
