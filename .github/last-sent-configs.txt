@@ -533,6 +533,7 @@ trojan://telegram-id-directvpn@15.188.182.93:22223?security=tls&alpn=http/1.1&he
 trojan://telegram-id-directvpn@18.184.212.180:22223?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#%40vpn_mall | 🇩🇪 DE | 18.184.212.180
 trojan://telegram-id-directvpn@18.184.212.180:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#%40vpn_mall | 🇩🇪 DE | 18.184.212.180
 trojan://telegram-id-directvpn@3.125.174.245:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#%40vpn_mall | 🇩🇪 DE | 3.125.174.245
+trojan://telegram-id-directvpn@35.157.18.183:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#%40vpn_mall | 🇩🇪 DE | 35.157.18.183
 trojan://telegram-id-directvpn@51.44.95.202:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#%40vpn_mall | 🇫🇷 FR | 51.44.95.202
 trojan://telegram-id-privatevpns@13.36.158.160:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#%40vpn_mall | 🇫🇷 FR | 13.36.158.160
 trojan://telegram-id-privatevpns@13.39.35.91:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#%40vpn_mall | 🇫🇷 FR | 13.39.35.91
@@ -642,6 +643,7 @@ vless://0466bf43-b8a3-4ddb-eb1c-5bec6e1ae692@20.215.42.100:443?security=tls&alpn
 vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.baipiao.eu.org:443?type=ws&security=tls&path=/&sni=misaka.cndyw.ggff.net&fp=random#%40vpn_mall | 🇨🇦 CA | 104.21.88.129
 vless://04e28e6c-7a6c-4ec7-bed2-3da8f7c9edce@45.130.125.126:2053?path=/eyJqdW5rIjoiTG1BbkpIVHV2S21jNjRNIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTQ2LjEwMy4xMTMuMTU4Il19?ed&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=bpb-expo--10rayly4zy.expo.app&fp=chrome&type=ws&allowInsecure=0&sni=BpB-expO--10RaYly4zY.EXPO.App#%40vpn_mall | 🇸🇨 SC | 45.130.125.126
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@13.39.4.77:22224?type=ws&security=tls&path=/telegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#%40vpn_mall | 🇫🇷 FR | 13.39.4.77
+vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@35.157.18.183:22224?path=/telegram-channel-vlessconfig&security=tls&encryption=none&type=ws&sni=trojan.burgerip.co.uk#%40vpn_mall | 🇩🇪 DE | 35.157.18.183
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@51.44.95.202:22224?type=ws&security=tls&path=/telegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#%40vpn_mall | 🇫🇷 FR | 51.44.95.202
 vless://055b375f-390f-465a-93ba-acf4571e9d55@da.mobileemdad.top:42542?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#%40vpn_mall | 🇩🇪 DE | 91.98.103.40
 vless://055b375f-390f-465a-93ba-acf4571e9d55@da.mobileemdad.top:42542?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#%40vpn_mall | 🇩🇪 DE | 91.98.110.229
@@ -3318,6 +3320,7 @@ vless://ec797c83-0b8d-4d5c-b556-1d786ca074c3@66.33.23.33:443?security=tls&encryp
 vless://ec797c83-0b8d-4d5c-b556-1d786ca074c3@thomas.proxy.rlwy.net:39392?mode=auto&path=/xh&security=reality&encryption=none&pbk=CrEL0U-ugDvMuUfmR5sM0GLZryu7oDMmA-3v812Vljo&fp=chrome&type=xhttp&sni=yahoo.com&sid=0123456789abcdef#%40vpn_mall | 🇺🇸 US | 66.33.22.225
 vless://ecbd9cb2-f827-4021-8369-a0d7d91fa7bd@snapp.ir:443?path=/?ed&security=tls&encryption=none&insecure=0&host=srv10.archlix.com&fp=chrome&type=ws&allowInsecure=0&sni=ukr2.archlix.com#%40vpn_mall | 🇮🇷 IR | 185.143.234.122
 vless://ecd7aeca-2e37-4761-93e7-7cf4c2ff55bf@2.27.22.238:110?security=none&encryption=none&headerType=none&type=tcp#%40vpn_mall | 🇩🇪 DE | 2.27.22.238
+vless://ecd9d58c-640e-4399-b0f6-814742c7b113@5.75.207.247:44004?security=reality&encryption=none&pbk=KTAuJl8Ga2u2IZmfizQj6yEw3fOcqxLeYVhCA_r1wmQ&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=www.intel.com&sid=77b0689f#%40vpn_mall | 🇩🇪 DE | 5.75.207.247
 vless://ecd9d58c-640e-4399-b0f6-814742c7b113@5.75.207.247:44004?type=tcp&encryption=none&security=reality&pbk=KTAuJl8Ga2u2IZmfizQj6yEw3fOcqxLeYVhCA_r1wmQ&fp=chrome&sni=www.intel.com&sid=77b0689f&spx=/&flow=xtls-rprx-vision#%40vpn_mall | 🇩🇪 DE | 5.75.207.247
 vless://ed2e010d-4ecd-4483-a8ae-e7aaee0f595e@tamin.ir:2052?encryption=none&type=ws&path=/&host=free.sedighi0915.ir#%40vpn_mall | 🇮🇷 IR | 185.143.234.234
 vless://ed45d6ff-0388-4cf3-a333-e0e01b0b9feb@104.18.155.17:443?encryption=none&security=tls&sni=hI.ANzALi.sHop&fp=chrome&alpn=h2&type=grpc&serviceName=7pEwzBGkpMEMnHPsXAE9d#%40vpn_mall | 🇨🇦 CA | 104.18.155.17
