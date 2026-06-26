@@ -99,6 +99,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZdVJ0NkFYOVA0Tml1dFR3b0RNdkRUcnhJam9fbHNHcg@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpaRVoyYmZGYlZpQzl1c04xV0I0eHF2eXpFdVVoUEEydXVVWVptaktBV1RRYzNtRXJoQ2FWSG1aYmJXZ1ZHOW9pMVZIaHoxMktQMmdBV0M4TFpKNGltV2h5cEFEOVBHM3U=@185.5.38.111:55988?#%40vpn_mall | 🇫🇮 FI | 185.5.38.111
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphMDQ5U3EtLXc1NGRCeDNRZkJaQ2t3@13.40.43.88:1003#%40vpn_mall | 🇬🇧 GB | 13.40.43.88
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphMHAzRjloeEVVc0dOaWNC@40.123.244.72:443?outline=1&prefix=POST P338ee3v#%40vpn_mall | 🇿🇦 ZA | 40.123.244.72
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphMWViZjc2NTA5MDlhZjJlMzBkZDU2MGI5NzQ2ZTM1MQ@159.69.21.145:1080#%40vpn_mall | 🇩🇪 DE | 159.69.21.145
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpia2FxOHRqamc1ZmFlZ3Zo@94.182.136.76:5152?type=tcp#%40vpn_mall | 🇮🇷 IR | 94.182.136.76
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@193.29.139.199:8080?#%40vpn_mall | 🇳🇱 NL | 193.29.139.199
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkaFVmYzBub1NRRFRMT0FS@20.164.221.1:443#%40vpn_mall | 🇿🇦 ZA | 20.164.221.1
@@ -309,6 +310,10 @@ trojan://SoftNetConnect@83.228.230.226:443?type=xhttp&security=reality&path=/&mo
 trojan://SoftNetConnect@83.228.230.226:8443?security=reality&pbk=h0Lem3eyDGqkye4yAMuxixCMI2EqD1EKdH9Ky0Xetjg&headerType=none&fp=chrome&spx=/&type=tcp&sni=play.google.com&sid=c7#%40vpn_mall | 🇨🇭 CH | 83.228.230.226
 trojan://SoftNetConnect@83.228.230.226:8443?type=tcp&security=reality&sni=play.google.com&fp=chrome&insecure=1&allowInsecure=1&pbk=h0Lem3eyDGqkye4yAMuxixCMI2EqD1EKdH9Ky0Xetjg&sid=c7&spx=/#%40vpn_mall | 🇨🇭 CH | 83.228.230.226
 trojan://SoftNetConnect@83.228.230.226:8443?type=tcp&security=reality&sni=play.google.com&fp=chrome&insecure=1&allowInsecure=1&pbk=h0Lem3eyDGqkye4yAMuxixCMI2EqD1EKdH9Ky0Xetjg&sid=c7&spx=/#%40vpn_mall | 🏴‍☠️ UN | 83.228.230.226
+trojan://SoftNetConnect@83.228.251.47:2087?type=grpc&security=reality&authority=185.204.169.129&sni=www.yahoo.com&fp=chrome&insecure=1&allowInsecure=1&pbk=tDzuiaElyFXPtFP25CeCKWW5dsdC4055CnqzYcFyfB8&sid=96a17085678b&spx=/#%40vpn_mall | 🇨🇭 CH | 83.228.251.47
+trojan://SoftNetConnect@83.228.251.47:42549?type=tcp&security=tls&sni=www.speedtest.net&alpn=h2,http/1.1,h3&fp=chrome&insecure=1&allowInsecure=1#%40vpn_mall | 🇨🇭 CH | 83.228.251.47
+trojan://SoftNetConnect@83.228.251.47:443?type=xhttp&security=reality&path=/&mode=auto&extra={"xPaddingBytes":"100-1000"}&sni=www.yahoo.com&fp=chrome&insecure=1&allowInsecure=1&pbk=lnP3zaTgKpFJpC8IYOJZUuAedJghDQPowXJp5diOzQA&sid=141b14d8&spx=/#%40vpn_mall | 🇨🇭 CH | 83.228.251.47
+trojan://SoftNetConnect@83.228.251.47:8443?type=tcp&security=reality&sni=play.google.com&fp=chrome&insecure=1&allowInsecure=1&pbk=h0Lem3eyDGqkye4yAMuxixCMI2EqD1EKdH9Ky0Xetjg&sid=c7&spx=/#%40vpn_mall | 🇨🇭 CH | 83.228.251.47
 trojan://SoftNetConnect@91.107.162.63:8443?mode=auto&path=/&security=reality&extra={"xPaddingBytes":"100-1000"}&pbk=P9eMYLozM4-cDufbc3xzA6AEKRc1p7pdidJ_iqp72ls&fp=chrome&spx=/&type=xhttp&sni=www.yahoo.com&sid=4da1e3bdfe7f#%40vpn_mall | 🇩🇪 DE | 91.107.162.63
 trojan://T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf@103.125.216.68:443#%40vpn_mall | 🇯🇵 JP | 103.125.216.68
 trojan://Tel:Arshiacomplus@45.154.96.35:14456?type=ws&security=tls&path=/jdjsjeje&host=oof.acp.us.ci&sni=oof.acp.us.ci&alpn=h2,http/1.1&fp=firefox&allowInsecure=1#%40vpn_mall | 🇫🇷 FR | 45.154.96.35
@@ -2294,6 +2299,7 @@ vless://97b8c447-72d8-4b4e-9edc-3b4cc064768d@212.100.171.53:43959?encryption=non
 vless://97b8c447-72d8-4b4e-9edc-3b4cc064768d@212.100.171.53:43959?security=none&encryption=none&headerType=none&type=tcp#%40vpn_mall | 🇩🇪 DE | 212.100.171.53
 vless://97bf06ad-c9a8-4ea4-afb5-9092cc092214@45.195.137.72:8443?security=reality&encryption=none&pbk=IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=storage.yandex.net&sid=40ce08cf20c67003#%40vpn_mall | 🇹🇷 TR | 45.195.137.72
 vless://97d216c9-7561-45fa-fd67-e56fde36360b@193.58.119.134:443?security=none&type=tcp&host=google.com&headerType=http#%40vpn_mall | 🇮🇷 IR | 193.58.119.134
+vless://97d290a0-acec-4aae-b8cf-c7111a5a6397@72.56.32.153:9880/?type=xhttp&encryption=none&flow=#%40vpn_mall | 🇷🇺 RU | 72.56.32.153
 vless://97dce074-7db1-4d59-99ca-0ef8311e2425@s19.speedyconnect.pro:443?path=/downloader/10005?ed=2048&security=tls&encryption=none&host=s19.speedyconnect.pro&type=ws&sni=s19.speedyconnect.pro#%40vpn_mall | 🇮🇷 IR | 185.143.233.234
 vless://97ddf9a6-de5b-4229-bc41-4627321eff43@162.159.61.158:80?encryption=none&type=ws&path=/?ed=2048&host=potifar.kravend4.workers.dev#%40vpn_mall | 🇨🇦 CA | 162.159.61.158
 vless://97ea73b6-2043-4238-903c-a1e3d4a43c96@172.67.74.10:2087?path=/download.php&security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&host=amphetamine.adaspoloandco.com&fp=firefox&type=ws&allowInsecure=0&sni=amphetamine.adaspoloandco.com#%40vpn_mall | 🇨🇦 CA | 172.67.74.10
@@ -3312,6 +3318,7 @@ vless://ec797c83-0b8d-4d5c-b556-1d786ca074c3@66.33.23.33:443?security=tls&encryp
 vless://ec797c83-0b8d-4d5c-b556-1d786ca074c3@thomas.proxy.rlwy.net:39392?mode=auto&path=/xh&security=reality&encryption=none&pbk=CrEL0U-ugDvMuUfmR5sM0GLZryu7oDMmA-3v812Vljo&fp=chrome&type=xhttp&sni=yahoo.com&sid=0123456789abcdef#%40vpn_mall | 🇺🇸 US | 66.33.22.225
 vless://ecbd9cb2-f827-4021-8369-a0d7d91fa7bd@snapp.ir:443?path=/?ed&security=tls&encryption=none&insecure=0&host=srv10.archlix.com&fp=chrome&type=ws&allowInsecure=0&sni=ukr2.archlix.com#%40vpn_mall | 🇮🇷 IR | 185.143.234.122
 vless://ecd7aeca-2e37-4761-93e7-7cf4c2ff55bf@2.27.22.238:110?security=none&encryption=none&headerType=none&type=tcp#%40vpn_mall | 🇩🇪 DE | 2.27.22.238
+vless://ecd9d58c-640e-4399-b0f6-814742c7b113@5.75.207.247:44004?type=tcp&encryption=none&security=reality&pbk=KTAuJl8Ga2u2IZmfizQj6yEw3fOcqxLeYVhCA_r1wmQ&fp=chrome&sni=www.intel.com&sid=77b0689f&spx=/&flow=xtls-rprx-vision#%40vpn_mall | 🇩🇪 DE | 5.75.207.247
 vless://ed2e010d-4ecd-4483-a8ae-e7aaee0f595e@tamin.ir:2052?encryption=none&type=ws&path=/&host=free.sedighi0915.ir#%40vpn_mall | 🇮🇷 IR | 185.143.234.234
 vless://ed45d6ff-0388-4cf3-a333-e0e01b0b9feb@104.18.155.17:443?encryption=none&security=tls&sni=hI.ANzALi.sHop&fp=chrome&alpn=h2&type=grpc&serviceName=7pEwzBGkpMEMnHPsXAE9d#%40vpn_mall | 🇨🇦 CA | 104.18.155.17
 vless://ed45d6ff-0388-4cf3-a333-e0e01b0b9feb@104.19.114.78:443?encryption=none&security=tls&sni=10.yakBaK.wORkERs.Dev&fp=chrome&alpn=http/1.1&type=ws&host=10.YAkbaK.wORkERS.DeV&path=/7pEwzBGkpMEMnHeH0PAxGMPjJtnq#%40vpn_mall | 🇨🇦 CA | 104.19.114.78
