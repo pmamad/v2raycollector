@@ -3638,6 +3638,7 @@ vless://cadb3fa0-71b7-4af5-b2cf-7fa70356d22c@cctvhikvision.center:2052?path=/api
 vless://cadb3fa0-71b7-4af5-b2cf-7fa70356d22c@freesocks.work:2052?path=/api-v1&security=none&encryption=none&host=uwu.blueknightnet.qzz.io&type=ws#%40vpn_mall | 🇨🇦 CA | 104.21.91.234
 vless://cb25df71-caec-4405-9264-b1883735898d@subhom.servemp3.com:2052?encryption=none&fp=chrome&pbk=aI_luZYgQhUBKncsor71U4sfvMiaOmzKQVeCAwHwDEU&security=reality&sid=d604ae16&sni=www.yahoo.com&spx=/7lxU9K1ChCVQFbt&type=tcp#%40vpn_mall | 🏴‍☠️ HK | 95.182.100.151
 vless://cb380930-d854-4e41-80b1-275f5d89aecc@185.143.233.5:2083?encryption=none&fp=firefox&host=p1.sesrsa.com&path=/&security=tls&sni=sub.sesrsa.com&type=ws#%40vpn_mall | 🇮🇷 IR | 185.143.233.5
+vless://cb9e1505-01eb-4d35-9840-17128da04d93@169.40.32.129:443?fp=chrome&sid=6a&spx=/whPCy1cgE9E5zP6&type=tcp&headerType=http&encryption=none&sni=www.yahoo.com&security=reality&pbk=eg1Br2itpx7DM1ICrT7p7SRmefGONSHQtRQURGV-AWg#%40vpn_mall | 🇩🇪 DE | 169.40.32.129
 vless://cba15d1d-03af-41ec-b0f9-ccff5fcaaf63@188.114.97.6:2052?mode=auto&path=/&security=none&encryption=none&extra={"xPaddingBytes":"100-1000"}&host=fi-1-whitecdnand1.amazon-host.com&type=xhttp#%40vpn_mall | 🇨🇦 CA | 188.114.97.6
 vless://cba15d1d-03af-41ec-b0f9-ccff5fcaaf63@188.114.97.6:2052?mode=auto&path=/&security=none&encryption=none&extra={"xPaddingBytes":"100-1000"}&host=fi-1-whitecdnand1.amazon-host.com&type=xhttp#%40vpn_mall | 🏴‍☠️ UN | 188.114.97.6
 vless://cbc27e56-38a1-4b0d-bce3-f9e7dcb807a4@89.208.208.92:7443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=grpc&fp=qq&sni=loadtest.dev.urent.ru&pbk=_AXs-QnufIq918tbb2pwM3MDbe7kQ6i0cIHDMLwPmGs&sid=3210e0eee6605048#%40vpn_mall | 🏴‍☠️ UN | 89.208.208.92
@@ -4050,6 +4051,7 @@ vless://eab915bc-d2df-73d1-47d0-6eb240497055@h2.garletshopino.com:2096?mode=auto
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇫🇷 FR | 31.56.146.144
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=&encryption=none&host=Telegram-NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP&headerType=http&type=tcp#%40vpn_mall | 🇫🇷 FR | 95.182.116.63
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇫🇮 FI | 109.248.163.231
+vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇳🇱 NL | 45.89.244.29
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@ps2.dservice.ir:2095?path=/DL?ed=2053&security=&encryption=none&host=ps2.dservice.ir&type=ws#%40vpn_mall | 🇮🇷 IR | 185.143.234.235
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@ps5.topmarket1.ir:8880?path=/DL?ed=2053&security=&encryption=none&host=ps5.topmarket1.ir&type=ws#%40vpn_mall | 🇮🇷 IR | 193.176.240.129
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@tr.dtgitar.com:19667?security=&encryption=none&host=play.google.com&headerType=http&type=tcp#%40vpn_mall | 🇹🇷 TR | 130.94.1.144
