@@ -879,6 +879,7 @@ vless://0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c@91.193.58.77:443?path=/ca-cl&securi
 vless://0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c@91.193.58.77:443?path=/ca-cl&security=tls&encryption=none&insecure=0&host=unnes.ac.id.yxls.eu.cc&type=ws&allowInsecure=0&sni=unnes.ac.id.yxls.eu.cc#%40vpn_mall | 🇬🇧 GB | 91.193.58.77
 vless://0b009a0d-07c8-4aef-8c00-09fff590af7e@91.193.58.246:8443?path=/&security=tls&encryption=none&insecure=0&host=nova-mango-spark-9651.nova-3b222e.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-mango-spark-9651.nova-3b222e.workers.dev#%40vpn_mall | 🇬🇧 GB | 91.193.58.246
 vless://0b17eb47-587b-4e46-86a7-e1681cbbe76c@www.gov.ua:8880?path=/pyip=ProxyIP.JP.CMLiussss.net&security=none&encryption=none&host=orange-math-9c83.371.workers.dev&type=ws#%40vpn_mall | 🇨🇦 CA | 104.21.23.72
+vless://0b17eb47-587b-4e46-86a7-e1681cbbe76c@www.gov.ua:8880?path=/pyip=ProxyIP.JP.CMLiussss.net&security=none&encryption=none&host=orange-math-9c83.371.workers.dev&type=ws#%40vpn_mall | 🇨🇦 CA | 172.67.209.127
 vless://0b17eb47-587b-4e46-86a7-e1681cbbe76c@www.gov.ua:8880?path=/pyip=ProxyIP.JP.CMLiussss.net&security=none&encryption=none&host=orange-math-9c83.371.workers.dev&type=ws#%40vpn_mall | 🇨🇦 CA | 2606:4700:3035::6815:1748
 vless://0b1ad92f-59e5-4003-b4d3-731fa73939ab@5.253.59.220:449?encryption=none&type=ws&path=/api#%40vpn_mall | 🇳🇱 NL | 5.253.59.220
 vless://0b3e592c-4228-4409-8f90-c4e21863b51b@104.19.64.105:8443?path=/download.php&security=tls&encryption=none&insecure=0&host=chopin.adaspoloandco.com&fp=chrome&type=ws&allowInsecure=0&sni=chopin.adaspoloandco.com#%40vpn_mall | 🇨🇦 CA | 104.19.64.105
@@ -4063,6 +4064,7 @@ vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=&
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=&encryption=none&host=Telegram-NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP&headerType=http&type=tcp#%40vpn_mall | 🇫🇷 FR | 95.182.116.63
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇫🇮 FI | 109.248.163.231
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇫🇷 FR | 31.56.176.140
+vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇫🇷 FR | 31.56.176.191
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇫🇷 FR | 31.57.109.202
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇳🇱 NL | 31.56.222.128
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇳🇱 NL | 45.89.244.29
