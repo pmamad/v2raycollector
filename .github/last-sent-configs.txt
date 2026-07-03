@@ -301,6 +301,7 @@ trojan://Masir_Sefid@195.15.253.91:2053?security=reality&pbk=w0XepGv1Hk0gBh1Apiw
 trojan://Masir_Sefid@195.15.253.91:443?security=reality&pbk=w0XepGv1Hk0gBh1Apiw-nvn8SfzjWcDuxdxN1mpaF3g&headerType=none&fp=chrome&spx=/zyKRb3NaP9Ee0j4&type=tcp&sni=store.steampowered.com&sid=6ced01fc4aa417#%40vpn_mall | 🇨🇭 CH | 195.15.253.91
 trojan://Masir_Sefid@195.15.253.91:443?security=reality&pbk=w0XepGv1Hk0gBh1Apiw-nvn8SfzjWcDuxdxN1mpaF3g&headerType=none&fp=chrome&spx=/zyKRb3NaP9Ee0j4&type=tcp&sni=store.steampowered.com&sid=6ced01fc4aa417#%40vpn_mall | 🏴‍☠️ UN | 195.15.253.91
 trojan://MeaDiUmPlkWbZJ2BON8tz@78.159.131.12:28259?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&allowInsecure=1&sni=ads.x5.ru#%40vpn_mall | 🇦🇱 AL | 78.159.131.12
+trojan://MiTiVPN@104.16.72.101:443?path=/MiTiVPN=NL&security=tls&alpn=http/1.1&insecure=0&host=N--l.App-Cloud.ir&fp=chrome&type=ws&allowInsecure=0&sni=N--l.App-Cloud.ir#%40vpn_mall | 🇨🇦 CA | 104.16.72.101
 trojan://MiTiVPN@104.21.18.41:443?path=/cdn=mitivpn&security=tls&alpn=http/1.1&insecure=0&host=linkkon-w.ir&fp=chrome&type=ws&allowInsecure=0&sni=linkkon-w.ir#%40vpn_mall | 🇨🇦 CA | 104.21.18.41
 trojan://MiTiVPN@104.21.18.41:443?path=/ed=mitivpn&security=tls&alpn=http/1.1&host=blog.95r.ir&fp=chrome&type=ws&sni=blog.95r.ir#%40vpn_mall | 🇨🇦 CA | 104.21.18.41
 trojan://MiTiVPN@140.248.185.253:443?type=ws&security=tls&path=/ed=mitivpn&host=mitivpn-s2.global.ssl.fastly.net&sni=ssl.fastly.com&alpn=http/1.1&fp=chrome&insecure=1&allowInsecure=1#%40vpn_mall | 🇺🇸 US | 140.248.185.253
@@ -3123,6 +3124,7 @@ vless://a5c05c1e-aa68-443f-8598-09800244bd4b@192.71.82.2:443?encryption=none&typ
 vless://a5c05c1e-aa68-443f-8598-09800244bd4b@192.71.82.2:443?insecure=0&allowInsecure=0&encryption=none&fp=firefox&path=/LiL?ed=2560&alpn=h3&sni=kingcloud.biack.ir&type=ws&security=tls#%40vpn_mall | 🇸🇪 SE | 192.71.82.2
 vless://a5c05c1e-aa68-443f-8598-09800244bd4b@192.71.82.2:443?insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=kingcloud.biack.ir&security=tls&path=/LiL?ed&encryption=none&alpn=h3#%40vpn_mall | 🇸🇪 SE | 192.71.82.2
 vless://a5c05c1e-aa68-443f-8598-09800244bd4b@192.71.82.2:443?path=/LiL&security=tls&encryption=none&insecure=0&host=kingcloud.biack.ir&type=ws&allowInsecure=0&sni=kingcloud.biack.ir#%40vpn_mall | 🇸🇪 SE | 192.71.82.2
+vless://a5c05c1e-aa68-443f-8598-09800244bd4b@192.71.82.2:443?path=/LiL?ed#%40vpn_mall | 🇸🇪 SE | 192.71.82.2
 vless://a5c05c1e-aa68-443f-8598-09800244bd4b@192.71.82.2:443?path=/LiL?ed&security=tls&alpn=h3&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=kingcloud.biack.ir#%40vpn_mall | 🇸🇪 SE | 192.71.82.2
 vless://a5c05c1e-aa68-443f-8598-09800244bd4b@192.71.82.2:443?path=/LiL?ed&security=tls&alpn=h3&encryption=none&insecure=0&fp=firefox&type=ws&allowInsecure=0&sni=kingcloud.biack.ir#%40vpn_mall | 🇸🇪 SE | 192.71.82.2
 vless://a5c05c1e-aa68-443f-8598-09800244bd4b@192.71.82.2:443?path=/LiL?ed&security=tls&alpn=h3&encryption=none&insecure=0&host=kingcloud.biack.ir&fp=chrome&type=ws&allowInsecure=0&sni=kingcloud.biack.ir#%40vpn_mall | 🇸🇪 SE | 192.71.82.2
@@ -4083,6 +4085,7 @@ vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=n
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇳🇱 NL | 45.89.244.29
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇳🇱 NL | 46.8.231.212
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇺🇸 US | 104.252.30.163
+vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇺🇸 US | 104.252.30.223
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇺🇸 US | 104.252.30.63
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇺🇸 US | 104.252.30.70
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇺🇸 US | 45.38.228.240
