@@ -4080,6 +4080,7 @@ vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=n
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇳🇱 NL | 45.89.244.29
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇳🇱 NL | 46.8.231.212
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇺🇸 US | 104.252.30.163
+vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇺🇸 US | 104.252.30.63
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇺🇸 US | 45.38.228.240
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@ps2.dservice.ir:2095?path=/DL?ed=2053&security=&encryption=none&host=ps2.dservice.ir&type=ws#%40vpn_mall | 🇮🇷 IR | 185.143.234.235
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@ps5.topmarket1.ir:8880?path=/DL?ed=2053&security=&encryption=none&host=ps5.topmarket1.ir&type=ws#%40vpn_mall | 🇮🇷 IR | 193.176.240.129
