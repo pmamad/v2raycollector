@@ -4069,6 +4069,7 @@ vless://eab915bc-d2df-73d1-47d0-6eb240497055@h2.garletshopino.com:2096?mode=auto
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇫🇷 FR | 31.56.146.144
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=&encryption=none&host=Telegram-NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP&headerType=http&type=tcp#%40vpn_mall | 🇫🇷 FR | 95.182.116.63
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇫🇮 FI | 109.248.163.231
+vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇫🇮 FI | 31.57.62.5
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇫🇷 FR | 31.56.146.112
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇫🇷 FR | 31.56.176.140
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇫🇷 FR | 31.56.176.191
