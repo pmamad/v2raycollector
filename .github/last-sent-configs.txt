@@ -1927,6 +1927,7 @@ vless://3fa92976-551b-4805-b59e-e4f09db85e71@u-s.lorqina.ir:12347?path=/ed=250&s
 vless://3fd13ce0-220f-4293-a1e7-99337f29e42f@104.26.6.159:2053?security=tls&type=ws&headerType=&path=&host=noone3.bingnet.online&sni=noone3.bingnet.online&fp=chrome&allowInsecure=1#%40vpn_mall | 🇨🇦 CA | 104.26.6.159
 vless://40187c6d-7cd7-4757-a07c-af8c7145b102@help1.digikala-aparat-zula.com:8443?path=/api-ip&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=api.talash.dpdns.org&fp=chrome&type=ws&allowInsecure=0&sni=api.talash.dpdns.org#%40vpn_mall | 🇨🇦 CA | 162.159.1.232
 vless://40187c6d-7cd7-4757-a07c-af8c7145b102@velorium.store:8443?path=/api-ip&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=api.talash.dpdns.org&fp=chrome&type=ws&allowInsecure=0&sni=api.talash.dpdns.org#%40vpn_mall | 🇨🇦 CA | 23.227.38.32
+vless://40187c6d-7cd7-4757-a07c-af8c7145b102@velorium.store:8443?path=/api-ip&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=api.talash.dpdns.org&fp=chrome&type=ws&allowInsecure=0&sni=api.talash.dpdns.org#%40vpn_mall | 🇨🇦 CA | 23.227.38.65
 vless://40187c6d-7cd7-4757-a07c-af8c7145b102@www.speedtest.net:8443?path=/api-ip&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=api.talash.dpdns.org&fp=chrome&type=ws&allowInsecure=0&sni=api.talash.dpdns.org#%40vpn_mall | 🇨🇦 CA | 104.17.147.22
 vless://40187c6d-7cd7-4757-a07c-af8c7145b102@www.speedtest.net:8443?path=/api-ip&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=api.talash.dpdns.org&fp=chrome&type=ws&allowInsecure=0&sni=api.talash.dpdns.org#%40vpn_mall | 🇨🇦 CA | 104.17.148.22
 vless://403c1990-0922-43e9-9027-03ef38c92c87@72.56.245.170:40443?security=reality&encryption=none&pbk=Y15uAAl8fpWhma1FIWyZujgRKdwxYaaF4zIyWyu9vSo&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=deepl.com&sid=5cc0#%40vpn_mall | 🇷🇺 RU | 72.56.245.170
@@ -4878,6 +4879,7 @@ vless://eab915bc-d2df-73d1-47d0-6eb240497055@gr1.fifapes.monster:8882?security=n
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@gr1.fifapes.monster:8882?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇫🇮 FI | 213.232.204.97
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@gr1.fifapes.monster:8882?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇫🇮 FI | 31.56.206.192
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@gr1.fifapes.monster:8882?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇫🇮 FI | 31.57.61.148
+vless://eab915bc-d2df-73d1-47d0-6eb240497055@gr1.fifapes.monster:8882?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇫🇮 FI | 31.57.62.42
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@gr1.fifapes.monster:8882?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇫🇮 FI | 45.91.193.124
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@gr1.fifapes.monster:8882?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇫🇮 FI | 45.91.193.55
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@gr1.fifapes.monster:8882?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇫🇮 FI | 5.144.179.235
