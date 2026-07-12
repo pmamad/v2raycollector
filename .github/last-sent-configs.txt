@@ -3044,6 +3044,7 @@ vless://8ad6f598-cd8d-4fca-848e-05fc9be15ff3@162.159.38.119:443?path=/sea&securi
 vless://8ad6f598-cd8d-4fca-848e-05fc9be15ff3@162.159.38.119:443?path=/sea&security=tls&encryption=none&insecure=0&host=deicl.redstone-vex.sbs&type=ws&allowInsecure=0&sni=deicl.redstone-vex.sbs#%40vpn_mall | 🇺🇸 US | 162.159.38.119
 vless://8ad6f598-cd8d-4fca-848e-05fc9be15ff3@162.159.38.119:443?path=/sea&security=tls&encryption=none&insecure=0&host=imblo.fastcitylab-byte.info&type=ws&allowInsecure=0&sni=imblo.fastcitylab-byte.info#%40vpn_mall | 🇺🇸 US | 162.159.38.119
 vless://8ad6f598-cd8d-4fca-848e-05fc9be15ff3@162.159.38.119:443?type=tcp&encryption=none&security=none#%40vpn_mall | 🇺🇸 US | 162.159.38.119
+vless://8ad6f598-cd8d-4fca-848e-05fc9be15ff3@love.ns.cloudflare.com:443?path=/sea#%40vpn_mall | 🇨🇦 CA | 108.162.194.119
 vless://8ad6f598-cd8d-4fca-848e-05fc9be15ff3@love.ns.cloudflare.com:443?path=/sea#%40vpn_mall | 🇨🇦 CA | 2606:4700:50::a29f:2677
 vless://8afa4ec4-0cf4-4444-9ef9-e879436bcc09@185.147.27.105:80?encryption=none&security=none&type=ws&path=/#%40vpn_mall | 🇷🇺 RU | 185.147.27.105
 vless://8b0b29f3-f92e-4039-b618-5b8778ce48c8@akoma.fisifisi.com:1152?security=reality&encryption=none&pbk=1ZgC12Vtoy1hH64I0exQ0DEjiXlF28E703H5RZ-VCzE&headerType=none&fp=chrome&spx=/K3AfAPXX0RIiPzx&type=tcp&flow=xtls-rprx-vision&sni=aws.amazon.com&sid=d47f#%40vpn_mall | 🇳🇱 NL | 104.248.92.181
@@ -4927,6 +4928,7 @@ vless://eab915bc-d2df-73d1-47d0-6eb240497055@fn.fifapes.monster:2090?security=no
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@fn.fifapes.monster:2090?security=none&encryption=none&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=http&type=tcp#%40vpn_mall | 🇱🇻 LV | 31.56.28.53
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@fn.fifapes.monster:2090?security=none&encryption=none&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=http&type=tcp#%40vpn_mall | 🇳🇱 NL | 109.248.162.170
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@fn.fifapes.monster:2090?security=none&encryption=none&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=http&type=tcp#%40vpn_mall | 🇺🇸 US | 104.252.30.142
+vless://eab915bc-d2df-73d1-47d0-6eb240497055@fn.fifapes.monster:2090?security=none&encryption=none&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=http&type=tcp#%40vpn_mall | 🇺🇸 US | 104.253.74.136
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@fn.fifapes.monster:2090?security=none&encryption=none&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=http&type=tcp#%40vpn_mall | 🇺🇸 US | 104.253.74.15
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@fn.fifapes.monster:2090?security=none&encryption=none&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=http&type=tcp#%40vpn_mall | 🇺🇸 US | 45.38.228.177
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@gr1.fifapes.monster:8882?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇫🇷 FR | 45.84.88.105
@@ -4964,6 +4966,7 @@ vless://eab915bc-d2df-73d1-47d0-6eb240497055@gr1.fifapes.monster:8882?security=n
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@gr1.fifapes.monster:8882?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇺🇸 US | 104.253.74.15
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@gr1.fifapes.monster:8882?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇺🇸 US | 45.38.228.177
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@gr1.fifapes.monster:8882?security=none&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇺🇸 US | 45.39.255.68
+vless://eab915bc-d2df-73d1-47d0-6eb240497055@gr1.fifapes.monster:8882?security=none&encryption=none&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=http&type=tcp#%40vpn_mall | 🇫🇮 FI | 31.57.62.176
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@gr1.fifapes.monster:8882?security=none&encryption=none&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=http&type=tcp#%40vpn_mall | 🇺🇸 US | 104.252.30.140
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@h1.garletshopino.com:2096?encryption=none&type=xhttp&security=tls&path=/clud?ed=2048&mode=auto&extra={"xPaddingBytes":"100-1000"}&sni=gzz.dtvialon.com&alpn=h2,http/1.1&fp=firefox&insecure=0&allowInsecure=0#%40vpn_mall | 🇸🇨 SC | 45.130.125.2
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@h1.garletshopino.com:2096?mode=auto&path=/clud?ed=2048&security=tls&alpn=h2,http/1.1&encryption=none&extra={"xPaddingBytes":"100-1000"}&insecure=0&fp=firefox&type=xhttp&allowInsecure=0&sni=franceix.dtvialon.com#%40vpn_mall | 🇸🇨 SC | 45.130.125.2
