@@ -405,6 +405,7 @@ trojan://MiTiVPN@104.21.61.186:443?path=/MiTiVPN=Sw&security=tls&alpn=http/1.1&i
 trojan://MiTiVPN@104.26.4.60:443?path=&security=tls&alpn=http/1.1&insecure=0&host=N-l.MaQror.ir&fp=chrome&type=ws&allowInsecure=0&sni=NL-L-ll.MaQror.ir#%40vpn_mall | 🇨🇦 CA | 104.26.4.60
 trojan://MiTiVPN@140.248.185.253:443?type=ws&security=tls&path=/ed=mitivpn&host=mitivpn-s2.global.ssl.fastly.net&sni=ssl.fastly.com&alpn=http/1.1&fp=chrome&insecure=1&allowInsecure=1#%40vpn_mall | 🇺🇸 US | 140.248.185.253
 trojan://MiTiVPN@151.101.1.194:443?path=/ed=mitivpn&security=tls&alpn=http/1.1&host=mitivpn-s2.global.ssl.fastly.net&type=ws&sni=global.fastly.com#%40vpn_mall | 🇨🇦 CA | 151.101.1.194
+trojan://MiTiVPN@151.101.1.194:443?type=ws&security=tls&path=/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=sws-s&host=mitivpn--mitivpn--mitivpn-mitivpn--mitivpn-mitivpn.global.ssl.fastly.net&sni=ssl.fastly.com&alpn=h2,http/1.1&fp=chrome&insecure=1&allowInsecure=1#%40vpn_mall | 🇨🇦 CA | 151.101.1.194
 trojan://MiTiVPN@151.101.1.242:443?type=ws&security=tls&path=/de=mitivpn&host=www.f6r.ir&sni=www.f6r.ir&alpn=http/1.1&fp=chrome&insecure=0&allowInsecure=0#%40vpn_mall | 🇨🇦 CA | 151.101.1.242
 trojan://MiTiVPN@151.101.110.219:443?path=/MiTiVPN=NL&security=tls&alpn=http/1.1&insecure=0&host=esalat-mitivpn.global.ssl.fastly.net&fp=firefox&type=ws&allowInsecure=0&sni=ssl.fastly.com#%40vpn_mall | 🇺🇸 US | 151.101.110.219
 trojan://MiTiVPN@151.101.110.219:443?path=/de&security=tls&alpn=http/1.1&insecure=0&host=cdn2-mitivpn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#%40vpn_mall | 🇺🇸 US | 151.101.110.219
@@ -5021,6 +5022,7 @@ vless://eab915bc-d2df-73d1-47d0-6eb240497055@gr1.fifapes.monster:8882?encryption
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@gr1.fifapes.monster:8882?security=&encryption=none&headerType=http&type=tcp#%40vpn_mall | 🇫🇷 FR | 104.252.111.54
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@gr1.fifapes.monster:8882?security=&encryption=none&host=Telegram-NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP&headerType=http&type=tcp#%40vpn_mall | 🇫🇷 FR | 31.56.146.144
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@gr1.fifapes.monster:8882?security=&encryption=none&host=gr1.fifapes.monster&headerType=http&type=tcp#%40vpn_mall | 🇫🇷 FR | 31.56.146.82
+vless://eab915bc-d2df-73d1-47d0-6eb240497055@gr1.fifapes.monster:8882?security=&encryption=none&host=gr1.fifapes.monster&headerType=http&type=tcp#%40vpn_mall | 🇫🇷 FR | 46.8.225.133
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@gr1.fifapes.monster:8882?security=&encryption=none&host=gr1.fifapes.monster&headerType=http&type=tcp#%40vpn_mall | 🇫🇷 FR | 95.182.83.141
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@gr1.fifapes.monster:8882?security=&encryption=none&host=gr1.fifapes.monster&headerType=http&type=tcp#%40vpn_mall | 🇱🇻 LV | 31.56.196.88
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@gr1.fifapes.monster:8882?security=&encryption=none&host=gr1.fifapes.monster&headerType=http&type=tcp#%40vpn_mall | 🇱🇻 LV | 5.178.96.206
