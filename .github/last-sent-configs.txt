@@ -4951,6 +4951,7 @@ vless://e4f8a283-8793-4ff7-ba4e-adc927d463fc@s3.iran-ahwaz.ir:1212?encryption=no
 vless://e4f8a283-8793-4ff7-ba4e-adc927d463fc@s4.iran-ahwaz.ir:1212?encryption=none&security=none&type=tcp&headerType=http&path=/#%40vpn_mall | 🇳🇱 NL | 5.253.246.68
 vless://e4f8a283-8793-4ff7-ba4e-adc927d463fc@snapp.ir:8880?encryption=none&security=none&type=ws&headerType=none&path=/&host=cd.ahwaz-game.ir#%40vpn_mall | 🇮🇷 IR | 185.143.234.122
 vless://e4f8a283-8793-4ff7-ba4e-adc927d463fc@snapp.ir:8880?path=/&security=none&encryption=none&host=cd.ahwaz-game.ir&type=ws#%40vpn_mall | 🇮🇷 IR | 185.143.233.122
+vless://e51796bb-3305-ac88-f39d-22fd9dd63b4f@170.168.99.3:443?mode=auto&path=/&security=reality&encryption=none&pbk=R8Mogel1wypEIpcUXnGmG1cuzT9POghNhqJcw4-CLx0&fp=chrome&type=xhttp&sni=cdn.steamstatic.com#%40vpn_mall | 🇩🇪 DE | 170.168.99.3
 vless://e53a92c7-4a78-49cc-ab01-917661058b9a@172.64.153.22:8443?type=tcp&encryption=none&security=none#%40vpn_mall | 🇨🇦 CA | 172.64.153.22
 vless://e550f63f-7975-455d-a5d8-e11a120a519d@s31588.asancall.cloud:8443?path=/ws/apps/zoomit&security=&encryption=none&type=ws#%40vpn_mall | 🇩🇪 DE | 159.195.75.185
 vless://e554afea-76a5-4733-9934-f9d4316d2f9b@it-zicid.locations-sub.com:6200?security=reality&encryption=none&pbk=lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo&headerType=none&fp=qq&type=tcp&sni=play.google.com#%40vpn_mall | 🇮🇹 IT | 57.131.17.109
