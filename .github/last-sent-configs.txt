@@ -148,6 +148,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoQ0NXT2NJc0s1d3JGejRPWDcwcldm@216.105.168.18
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoY3h2MEN2VDE0WmtpNGIxcDFKOW5F@84.54.44.54:11270/?outline=1#%40vpn_mall | 🇷🇺 RU | 84.54.44.54
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNnFqMVFpOWJLdkZmSU0w@20.234.9.106:443#%40vpn_mall | 🇮🇪 IE | 20.234.9.106
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppZE12b2V3clN5TEx2RXZQMDNrOXpS@138.68.153.223:46576#%40vpn_mall | 🇬🇧 GB | 138.68.153.223
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpqR21sTEcyM0ZkTVZ0d0Fx@4.210.66.168:443#%40vpn_mall | 🇮🇪 IE | 4.210.66.168
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpqam1qZHZua2Z5OWFsOGpi@mmd.radanjami.org:37309#%40vpn_mall | 🇮🇷 IR | 93.126.19.224
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.176:8080#%40vpn_mall | 🇳🇱 NL | 82.38.31.176
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.179:8080#%40vpn_mall | 🇳🇱 NL | 82.38.31.179
@@ -4266,6 +4267,7 @@ vless://b5bc2a1e-c07d-4a8d-a4ac-0ff76470c1e6@95.179.165.54:27911?encryption=none
 vless://b5bd7d6d-5ab9-4965-bccc-32acdbc4f714@82.40.62.106:2082?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&security=none&encryption=none&headerType=none&type=tcp#%40vpn_mall | 🇩🇪 DE | 82.40.62.106
 vless://b5bd7d6d-5ab9-4965-bccc-32acdbc4f714@91.107.179.170:2052?security=&encryption=none&headerType=none&type=tcp#%40vpn_mall | 🇩🇪 DE | 91.107.179.170
 vless://b5bd7d6d-5ab9-4965-bccc-32acdbc4f714@itaclo.konkuriran.sbs:8880?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&path=/&security=none&encryption=none&host=itcd.konkuriran.sbs&type=ws#%40vpn_mall | 🇨🇦 CA | 104.27.1.235
+vless://b5de4c73-c3b6-4b46-8cab-d25b12c9d6bc@euo1r.pastilbastani.ir:443?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#%40vpn_mall | 🇵🇱 PL | 85.158.57.180
 vless://b6083a84-80a5-3e88-9dbb-5c8ef241be3a@212.192.14.50:61825?type=grpc&headerType=none&security=reality&encryption=none&sni=github.com&pbk=G8hjZomMXOCmbVboqMiuf2sVvcnihjQ4BdyVo3XewW4&sid=6bcde426&serviceName=newinsight#%40vpn_mall | 🇷🇺 RU | 212.192.14.50
 vless://b6083a84-80a5-3e88-9dbb-5c8ef241be3a@84.201.187.42:443/?type=tcp&encryption=none&flow=&sni=ads.x5.ru&fp=chrome&security=reality&pbk=8zVjmI0JrsjZBlImD8TbPAb_de26b_YKRARmp-T_eH4&sid=6b26829083#🇷🇺 RU | 84.201.187.42
 vless://b635ecff-3b46-440f-be44-dd85ab63ee7d@51.250.102.69:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%40vpn_mall | 🇷🇺 RU | 51.250.102.69
