@@ -1056,6 +1056,8 @@ vless://06b65903-406d-4a41-8463-6fd5c0ee7798@45.130.125.160:443?path=/?TELEGRAM-
 vless://06b65903-406d-4a41-8463-6fd5c0ee7798@64.186.227.227:443?path=/proxyipfp&security=tls&encryption=none&insecure=1&host=sni.skylee4.cloudns.ch&type=ws&allowInsecure=1&sni=sni.skylee4.cloudns.ch#%40vpn_mall | 🇺🇸 US | 64.186.227.227
 vless://06d16269-04bb-4a2d-b5da-5dab27c59a15@5.75.207.247:4227?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=L5dWvFThmaEvNqnz8xbBkyT10TWINOZbn-BAdKtXNzk&security=reality&sid=109c8be3&sni=aws.amazon.com&spx=/5vXt1LMAmYeiEkf&type=tcp#%40vpn_mall | 🇩🇪 DE | 5.75.207.247
 vless://06d16269-04bb-4a2d-b5da-5dab27c59a15@5.75.207.247:443?encryption=none&flow=xtls-rprx-vision&fp=random&pbk=AQdYxjoMA0fxO8O9BX5bW4EMfRyiH09K0Hwjwse51AM&security=reality&sid=1bcb6db5&sni=www.nvidia.com&spx=/2MXOo5E53mBJdvq&type=tcp#%40vpn_mall | 🇩🇪 DE | 5.75.207.247
+vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@193.124.36.178:13868?security=reality&encryption=none&pbk=8SX8GXMe3lXOyY_acO4HFXXYJn_rOOf4zkYFrifV1Tk&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=www.epicgames.com&sid=e852dc#%40vpn_mall | 🏴‍☠️ UN | 193.124.36.178
+vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@78.17.105.52:13868?security=reality&encryption=none&pbk=XxzDVidmyjuPnBKrFDwCpowaIdLth4-kJsqrDvdPPx8&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=amd.com&sid=e852dc#%40vpn_mall | 🏴‍☠️ UN | 78.17.105.52
 vless://06eec82e-618e-434d-b5bc-471da05048da@new.popol.cfd:8443?flow=&type=ws&host=pqrcodee.ir&path=/stream&security=tls&sni=pqrcodee.ir&alpn=http/1.1,h2&fp=chrome&allowInsecure=0&echfq=none#%40vpn_mall | 🇮🇷 IR | 185.143.235.201
 vless://06ef598c-1555-4887-b3f9-08214a2f6792@104.18.139.67:443?path=/222.167.202.31:7443/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&insecure=0&host=2026.hhhhh.eu.org&type=ws&allowInsecure=0&sni=2026.hhhhh.eu.org#%40vpn_mall | 🇨🇦 CA | 104.18.139.67
 vless://06ef598c-1555-4887-b3f9-08214a2f6792@104.18.139.67:443?path=/222.167.202.31:7443/?TELEGRAM-vpnserverrr_vpnserverrr_vpnserverrr_vpnserverrr_vpnserverrr?ed=512&security=tls&encryption=none&insecure=0&host=2026.hhhhh.eu.org&type=ws&allowInsecure=0&sni=2026.hhhhh.eu.org#%40vpn_mall | 🇨🇦 CA | 104.18.139.67
@@ -4785,6 +4787,7 @@ vless://cf30deec-917f-4b1a-bb01-c48527cbc83a@swe.fast-cone.com:443?security=real
 vless://cf39fab0-bb85#%40vpn_mall | 🏴‍☠️ UN | cf39fab0-bb85
 vless://cf39fab0-bb85-42cb-9945-2ad69d78e575@104.18.32.47:443?path=/GOrbEh&security=tls&encryption=none&insecure=0&host=rubifen.adaspoloandco.com&fp=chrome&type=ws&allowInsecure=0&sni=rubifen.adaspoloandco.com#%40vpn_mall | 🇨🇦 CA | 104.18.32.47
 vless://cf39fab0-bb85-42cb-9945-2ad69d78e575@104.19.64.105:2087?path=/GOrbEh&security=tls&encryption=none&insecure=0&host=rubifen.adaspoloandco.com&fp=chrome&type=ws&allowInsecure=0&sni=rubifen.adaspoloandco.com#%40vpn_mall | 🇨🇦 CA | 104.19.64.105
+vless://cf39fab0-bb85-42cb-9945-2ad69d78e575@104.21.71.238:443?path=/GOrbEh&security=tls&encryption=none&insecure=0&host=rubifen.adaspoloandco.com&type=ws&allowInsecure=0&sni=rubifen.adaspoloandco.com#%40vpn_mall | 🏴‍☠️ UN | 104.21.71.238
 vless://cf39fab0-bb85-42cb-9945-2ad69d78e575@104.26.14.85:443?encryption=none&security=tls&sni=rubifen.adaspoloandco.com&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=rubifen.adaspoloandco.com&path=/GOrbEh#%40vpn_mall | 🇨🇦 CA | 104.26.14.85
 vless://cf39fab0-bb85-42cb-9945-2ad69d78e575@104.26.14.85:443?path=/GOrbEh#%40vpn_mall | 🇨🇦 CA | 104.26.14.85
 vless://cf39fab0-bb85-42cb-9945-2ad69d78e575@104.26.14.85:443?path=/GOrbEh&security=tls&encryption=none&insecure=0&host=rubifen.adaspoloandco.com&fp=chrome&type=ws&allowInsecure=0&sni=rubifen.adaspoloandco.com#%40vpn_mall | 🇨🇦 CA | 104.26.14.85
@@ -5151,6 +5154,7 @@ vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.153.165.158:22223?security=none&
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.153.165.158:22224?security=none&encryption=none&headerType=none&type=tcp#%40vpn_mall | 🇩🇪 DE | 18.153.165.158
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.194.133.160:22222?security=none&encryption=none&headerType=none&type=tcp#%40vpn_mall | 🇩🇪 DE | 18.194.133.160
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.194.165.203:22224?security=none&encryption=none&headerType=none&type=tcp#%40vpn_mall | 🇩🇪 DE | 18.194.165.203
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.197.75.14:22222?security=none&encryption=none&headerType=none&type=tcp#%40vpn_mall | 🏴‍☠️ UN | 18.197.75.14
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.125.21.222:22222?security=none&encryption=none&headerType=none&type=tcp#%40vpn_mall | 🇩🇪 DE | 3.125.21.222
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.125.21.222:22223?security=none&encryption=none&headerType=none&type=tcp#%40vpn_mall | 🇩🇪 DE | 3.125.21.222
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.125.21.222:22224?security=none&encryption=none&headerType=none&type=tcp#%40vpn_mall | 🇩🇪 DE | 3.125.21.222
