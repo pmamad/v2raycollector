@@ -740,6 +740,7 @@ trojan://humanity@188.114.97.6:443?path=/assignment&security=tls&insecure=1&host
 trojan://humanity@188.114.97.6:443?path=/assignment&security=tls&type=ws&sni=www.creationlong.org#%40vpn_mall | 🇨🇦 CA | 188.114.97.6
 trojan://humanity@188.114.97.6:443?sni=www.calmloud.com&allowInsecure=1&type=ws&path=/assignment&alpn=http/1.1&fp=chrome#%40vpn_mall | 🇨🇦 CA | 188.114.97.6
 trojan://humanity@188.114.97.6:443?type=ws&security=tls&path=/assignment&sni=www.calmloud.com&fp=cbhrome&insecure=0&allowInsecure=0#%40vpn_mall | 🇨🇦 CA | 188.114.97.6
+trojan://humanity@188.114.97.7:443?path=/assignment&security=tls&insecure=0&ech=ip.gs+udp://8.8.8.8&type=ws&allowInsecure=0&sni=www.ignitelimit.com#%40vpn_mall | 🇨🇦 CA | 188.114.97.7
 trojan://humanity@188.114.98.0:443?path=/assignment&security=tls&host=www.calmloud.com&fp=ios&type=ws&sni=www.calmloud.com#%40vpn_mall | 🇨🇦 CA | 188.114.98.0
 trojan://humanity@188.114.98.0:443?path=/assignment&security=tls&insecure=0&host=www.creationlong.org&type=ws&allowInsecure=0&sni=www.creationlong.org#%40vpn_mall | 🇨🇦 CA | 188.114.98.0
 trojan://humanity@188.114.98.0:443?security=tls&sni=www.creationlong.org&type=ws&host=www.creationlong.org&path=/assignment#%40vpn_mall | 🇨🇦 CA | 188.114.98.0
