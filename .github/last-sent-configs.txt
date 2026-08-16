@@ -4375,6 +4375,7 @@ vless://ada2c821-5c83-4dba-96ec-a5174e54ae4d@iranfuture.xyz:80?security=reality&
 vless://ada4ea8a-41d8-41b2-bcf5-9bf961b7d676@45.130.125.69:443?path=/&security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&host=cdn12.kaiserping.site&fp=chrome&type=ws&allowInsecure=0&sni=cdn12.kaiserping.site#%40vpn_mall | 🇸🇨 SC | 45.130.125.69
 vless://ada4ea8a-41d8-41b2-bcf5-9bf961b7d676@45.130.125.76:443?path=/&security=tls&alpn=h2,http/1.1&encryption=none&host=cdn12.kaiserping.site&fp=chrome&type=ws&sni=cdn12.kaiserping.site#%40vpn_mall | 🇸🇨 SC | 45.130.125.76
 vless://adb2e664-7938-ffc3-2a63-fb7a82c6f701@23.227.39.45:8880?security=none&type=xhttp&headerType=&encryption=none&path=&host=erfan.mmadvip8563.ir#%40vpn_mall | 🇨🇦 CA | 23.227.39.45
+vless://adc1e45e-78f9-4c4c-a127-d27401c40432@sv33.lithiumhost.ir:41722?security=&encryption=none&headerType=&type=tcp#%40vpn_mall | 🇮🇷 IR | 81.12.34.20
 vless://adcded8e-f148-4948-a2de-51c01d8d26f8@176.223.66.70:2003?security=reality&encryption=none&pbk=0nGh9GsPqY366E57yOAAfkD1F-YfxAtuLV6VHU9BA1s#%40vpn_mall | 🇹🇷 TR | 176.223.66.70
 vless://adcded8e-f148-4948-a2de-51c01d8d26f8@176.223.66.70:2003?security=reality&encryption=none&pbk=0nGh9GsPqY366E57yOAAfkD1F-YfxAtuLV6VHU9BA1s&headerType=none&fp=edge&type=tcp&sni=play.google.com&sid=2418ed47b875e923#%40vpn_mall | 🇹🇷 TR | 176.223.66.70
 vless://adea94e8-8d37-5b8b-b68d-9257cbf73986@144.31.4.119:58873?type=grpc&security=reality&fp=chrome&pbk=cC3B0IfiBonto9JvOORvwwLBWjNnd3sGoBcITwfAuxM&sid=f878&sni=lk.x5.ru#%40vpn_mall | 🏴‍☠️ UN | 144.31.4.119
