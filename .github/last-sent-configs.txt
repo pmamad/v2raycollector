@@ -801,6 +801,7 @@ trojan://humanity@www.calmloud.com:443?path=/assignment&security=tls&insecure=0&
 trojan://humanity@www.calmlunch.com:443?host=www.calmlunch.com&path=/assignment&type=ws#%40vpn_mall | 🇨🇦 CA | 104.18.8.83
 trojan://humanity@www.calmlunch.com:443?path=/assignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.calmlunch.com#%40vpn_mall | 🇨🇦 CA | 104.18.9.83
 trojan://humanity@www.calmlunch.com:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#%40vpn_mall | 🇨🇦 CA | 104.18.8.83
+trojan://humanity@www.calmlunch.com:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#%40vpn_mall | 🇨🇦 CA | 104.18.9.83
 trojan://humanity@www.calmlunch.com:443?security=tls&sni=www.calmlunch.com&fp=chrome&allowInsecure=0&type=ws&path=/assignment#%40vpn_mall | 🇨🇦 CA | 104.18.8.83
 trojan://humanity@www.calmlunch.com:443?security=tls&sni=www.calmlunch.com&fp=chrome&allowInsecure=0&type=ws&path=/assignment#%40vpn_mall | 🇨🇦 CA | 104.18.9.83
 trojan://humanity@www.ignitelimit.com:443?path=/assignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.ignitelimit.com#%40vpn_mall | 🇨🇦 CA | 2606:4700::6812:163f
