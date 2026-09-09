@@ -7001,6 +7001,7 @@ vmess://eyJhZGQiOiJzbml0bXAuYW1pcnBlaXJhdml3ZWIuaXIiLCJhaWQiOiIwIiwiYWxwbiI6IiIs
 }#%40vpn_mall | 🇨🇦 CA | 151.101.1.57
 }#%40vpn_mall | 🇳🇱 NL | 206.71.158.124
 }#%40vpn_mall | 🇳🇱 NL | 206.71.158.125
+}&insecure=0&host=static.lotussec.com&fp=chrome&type=xhttp&allowInsecure=0&sni=static.lotussec.com#%40vpn_mall | 🇩🇪 DE | 179.61.138.84
 }&insecure=0&host=static.lotussec.com&fp=chrome&type=xhttp&allowInsecure=0&sni=static.lotussec.com#%40vpn_mall | 🇩🇪 DE | 179.61.138.89
 }&insecure=0&host=static.lotussec.com&fp=chrome&type=xhttp&allowInsecure=0&sni=static.lotussec.com#%40vpn_mall | 🇩🇪 DE | 181.214.231.154
 }&insecure=0&host=static.lotussec.com&fp=chrome&type=xhttp&allowInsecure=0&sni=static.lotussec.com#%40vpn_mall | 🇩🇪 DE | 181.214.99.139
