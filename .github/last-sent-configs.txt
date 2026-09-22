@@ -833,6 +833,7 @@ trojan://humanity@www.ignitelimit.com:443?path=/assignment&security=tls&insecure
 trojan://humanity@www.multiplydose.com:443?path=%2Fassignment&security=tls&insecure=1&fp=chrome&type=ws&allowInsecure=1&sni=www.multiplydose.com#%40vpn_mall | 🇨🇦 CA | 2606:4700::6812:b6e
 trojan://humanity@www.multiplydose.com:443?path=/assignment&security=tls&insecure=1&fp=chrome&type=ws&allowInsecure=1&sni=www.multiplydose.com#%40vpn_mall | 🇨🇦 CA | 104.18.11.110
 trojan://humanity@www.speedtest.net:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&ech=ip.gs+udp://8.8.8.8&type=ws&allowInsecure=0&sni=www.calmlunch.com#%40vpn_mall | 🇨🇦 CA | 104.17.147.22
+trojan://humanity@www.speedtest.net:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&ech=ip.gs+udp://8.8.8.8&type=ws&allowInsecure=0&sni=www.calmlunch.com#%40vpn_mall | 🇨🇦 CA | 104.17.148.22
 trojan://hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd@185.137.157.254:443?allowInsecure=1&fp=chrome&sni=www.directorypipeline.click#%40vpn_mall | 🇩🇪 DE | 185.137.157.254
 trojan://iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf@64.176.65.85:443?security=tls&alpn=http/1.1&insecure=0&headerType=none&type=tcp&allowInsecure=0#%40vpn_mall | 🇵🇱 PL | 64.176.65.85
 trojan://ignHF1x8Gp@tunel.amirspacee.top:443?sni=tunel.amirspacee.top&alpn=h2,http/1.1&fp=chrome&type=ws&path=/mfvmfdvnfjvfkdmv#%40vpn_mall | 🇨🇦 CA | 188.114.96.0
