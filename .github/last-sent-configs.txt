@@ -92,6 +92,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1Uk91RXFzTDhJVU1NVmI0d0R3bkdV@57.129.121.230
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp2NmtoZ2Y1Nmo5YnI1ZTQ2@109.120.152.128:80?type=tcp#%40vpn_mall | 🇷🇺 RU | 109.120.152.128
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3b09IQkw2Tmd2SVYwblNtZGxnVXBnZmtLV0pjWjVaRg@bot.sobhanpor.ir:1080#%40vpn_mall | 🇫🇮 FI | 62.238.41.102
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp4ZnNjU0RjYi1TZUVxcVJiLm9telZHZ1ZnTnBYaDNiQTF1@67.219.106.119:26286#%40vpn_mall | 🇦🇺 AU | 67.219.106.119
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5N0tlUlR6bUgwdlhUMmtw@c3.nastuh.link:443#%40vpn_mall | 🇳🇱 NL | 20.67.93.66
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5N0tlUlR6bUgwdlhUMmtw@c3.nastuh.link:443#%40vpn_mall | 🇳🇱 NL | 51.124.237.47
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5N0tlUlR6bUgwdlhUMmtw@c3.nastuh.link:443#%40vpn_mall | 🇳🇱 NL | 52.143.57.34
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5S1ZNb0IzQXdpVEV6bnBub3EyRllS@193.47.60.186:28687#%40vpn_mall | 🇫🇮 FI | 193.47.60.186
