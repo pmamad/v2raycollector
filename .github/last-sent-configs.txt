@@ -144,10 +144,12 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOeWxsTlRlNU9ManczZklX@20.164.221.1:443#%40vp
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPWGhOeGlqQXZ5S0prbEM4@20.87.212.8:443#%40vpn_mall | 🇿🇦 ZA | 20.87.212.8
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@193.29.139.217:8080#%40vpn_mall | 🇳🇱 NL | 193.29.139.217
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTM1hzUzdnNDhyQzR1b01sYTRRT2Qy@46.224.2.35:47199#%40vpn_mall | 🇩🇪 DE | 46.224.2.35
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTWEY0X1hiMk1qRzdvLUh0MUZwNlA1ZHVSOW1SUnBkcQ@SUQ.Deev-Guard.ir:35259#%40vpn_mall | 🇳🇱 NL | 185.229.251.72
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTWEY0X1hiMk1qRzdvLUh0MUZwNlA1ZHVSOW1SUnBkcQ@SUQ.Deev-Guard.ir:35259#%40vpn_mall | 🇳🇱 NL | 185.251.25.162
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTWEY0X1hiMk1qRzdvLUh0MUZwNlA1ZHVSOW1SUnBkcQ@SUQ.Deev-Guard.ir:35259#%40vpn_mall | 🇳🇱 NL | 185.251.25.65
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTWEY0X1hiMk1qRzdvLUh0MUZwNlA1ZHVSOW1SUnBkcQ@SUQ.Deev-Guard.ir:35259#%40vpn_mall | 🇳🇱 NL | 188.137.236.192
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTWEY0X1hiMk1qRzdvLUh0MUZwNlA1ZHVSOW1SUnBkcQ@SUQ.Deev-Guard.ir:35259#%40vpn_mall | 🇳🇱 NL | 188.137.238.184
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTWEY0X1hiMk1qRzdvLUh0MUZwNlA1ZHVSOW1SUnBkcQ@SUQ.Deev-Guard.ir:6203#%40vpn_mall | 🇳🇱 NL | 185.229.251.72
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTWEY0X1hiMk1qRzdvLUh0MUZwNlA1ZHVSOW1SUnBkcQ@SUQ.Deev-Guard.ir:6203#%40vpn_mall | 🇳🇱 NL | 185.251.25.162
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTWEY0X1hiMk1qRzdvLUh0MUZwNlA1ZHVSOW1SUnBkcQ@SUQ.Deev-Guard.ir:6203#%40vpn_mall | 🇳🇱 NL | 185.251.25.65
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTWEY0X1hiMk1qRzdvLUh0MUZwNlA1ZHVSOW1SUnBkcQ@SUQ.Deev-Guard.ir:6203#%40vpn_mall | 🇳🇱 NL | 188.137.236.192
@@ -1160,18 +1162,22 @@ vless://05e3b601-cc07-46dd-9766-d90f7adaa655@65.21.109.91:443?encryption=none&ex
 vless://05e3b601-cc07-46dd-9766-d90f7adaa655@65.21.109.91:80?encryption=none&host=speedtest.com&path=/notbin&security=none&type=ws#%40vpn_mall | 🇫🇮 FI | 65.21.109.91
 vless://0611401f-a49e-4a55-9954-e74d4af47100@65.109.186.44:45026?security=none&encryption=none&host=/?BIA_TELEGRAM@vpnserverrr_vpnserverrr_vpnserverrr_vpnserverrr&headerType=none&type=tcp#%40vpn_mall | 🇫🇮 FI | 65.109.186.44
 vless://062761f1-cc57-48b6-8f69-f993c47c78de@5.180.40.32:443/?type=tcp&encryption=none&flow=&sni=www.intel.com&fp=chrome&security=reality&pbk=rXt4uIa-kkDwXAJvpaIlsnrbYWY-gHR4n_VTuHeLNlY&sid=7aed20#🇳🇱 NL | 5.180.40.32
+vless://06965a0b-3617-4dec-9044-08e446c35732@SUPmci.Deev-Guard.ir:1289?security=&encryption=mlkem768x25519plus.native.0rtt.l4vL8o_tMDEuI19vLDJYXFJOvYodTEgF6uK6gqjsDVw&headerType=none&type=tcp#%40vpn_mall | 🇳🇱 NL | 185.229.251.72
 vless://06965a0b-3617-4dec-9044-08e446c35732@SUPmci.Deev-Guard.ir:1289?security=&encryption=mlkem768x25519plus.native.0rtt.l4vL8o_tMDEuI19vLDJYXFJOvYodTEgF6uK6gqjsDVw&headerType=none&type=tcp#%40vpn_mall | 🇳🇱 NL | 185.251.25.162
 vless://06965a0b-3617-4dec-9044-08e446c35732@SUPmci.Deev-Guard.ir:1289?security=&encryption=mlkem768x25519plus.native.0rtt.l4vL8o_tMDEuI19vLDJYXFJOvYodTEgF6uK6gqjsDVw&headerType=none&type=tcp#%40vpn_mall | 🇳🇱 NL | 185.251.25.65
 vless://06965a0b-3617-4dec-9044-08e446c35732@SUPmci.Deev-Guard.ir:1289?security=&encryption=mlkem768x25519plus.native.0rtt.l4vL8o_tMDEuI19vLDJYXFJOvYodTEgF6uK6gqjsDVw&headerType=none&type=tcp#%40vpn_mall | 🇳🇱 NL | 188.137.236.192
 vless://06965a0b-3617-4dec-9044-08e446c35732@SUPmci.Deev-Guard.ir:1289?security=&encryption=mlkem768x25519plus.native.0rtt.l4vL8o_tMDEuI19vLDJYXFJOvYodTEgF6uK6gqjsDVw&headerType=none&type=tcp#%40vpn_mall | 🇳🇱 NL | 188.137.238.184
+vless://06965a0b-3617-4dec-9044-08e446c35732@SUPmci.Deev-Guard.ir:23760?security=none&encryption=mlkem768x25519plus.native.0rtt.pF61qmQDlCfPj0PAXAT2EKlYlG-lsrjtDk1ojGLBpB8&headerType=none&type=tcp#%40vpn_mall | 🇳🇱 NL | 185.229.251.72
 vless://06965a0b-3617-4dec-9044-08e446c35732@SUPmci.Deev-Guard.ir:23760?security=none&encryption=mlkem768x25519plus.native.0rtt.pF61qmQDlCfPj0PAXAT2EKlYlG-lsrjtDk1ojGLBpB8&headerType=none&type=tcp#%40vpn_mall | 🇳🇱 NL | 185.251.25.162
 vless://06965a0b-3617-4dec-9044-08e446c35732@SUPmci.Deev-Guard.ir:23760?security=none&encryption=mlkem768x25519plus.native.0rtt.pF61qmQDlCfPj0PAXAT2EKlYlG-lsrjtDk1ojGLBpB8&headerType=none&type=tcp#%40vpn_mall | 🇳🇱 NL | 185.251.25.65
 vless://06965a0b-3617-4dec-9044-08e446c35732@SUPmci.Deev-Guard.ir:23760?security=none&encryption=mlkem768x25519plus.native.0rtt.pF61qmQDlCfPj0PAXAT2EKlYlG-lsrjtDk1ojGLBpB8&headerType=none&type=tcp#%40vpn_mall | 🇳🇱 NL | 188.137.236.192
 vless://06965a0b-3617-4dec-9044-08e446c35732@SUPmci.Deev-Guard.ir:23760?security=none&encryption=mlkem768x25519plus.native.0rtt.pF61qmQDlCfPj0PAXAT2EKlYlG-lsrjtDk1ojGLBpB8&headerType=none&type=tcp#%40vpn_mall | 🇳🇱 NL | 188.137.238.184
+vless://06965a0b-3617-4dec-9044-08e446c35732@SUPmci.Deev-Guard.ir:3036?security=none&encryption=mlkem768x25519plus.native.0rtt.x8try52PFaTDSgZvj01fbRsH43gXD5Dx0S3yX1QkuB8&headerType=none&type=tcp#%40vpn_mall | 🇳🇱 NL | 185.229.251.72
 vless://06965a0b-3617-4dec-9044-08e446c35732@SUPmci.Deev-Guard.ir:3036?security=none&encryption=mlkem768x25519plus.native.0rtt.x8try52PFaTDSgZvj01fbRsH43gXD5Dx0S3yX1QkuB8&headerType=none&type=tcp#%40vpn_mall | 🇳🇱 NL | 185.251.25.162
 vless://06965a0b-3617-4dec-9044-08e446c35732@SUPmci.Deev-Guard.ir:3036?security=none&encryption=mlkem768x25519plus.native.0rtt.x8try52PFaTDSgZvj01fbRsH43gXD5Dx0S3yX1QkuB8&headerType=none&type=tcp#%40vpn_mall | 🇳🇱 NL | 185.251.25.65
 vless://06965a0b-3617-4dec-9044-08e446c35732@SUPmci.Deev-Guard.ir:3036?security=none&encryption=mlkem768x25519plus.native.0rtt.x8try52PFaTDSgZvj01fbRsH43gXD5Dx0S3yX1QkuB8&headerType=none&type=tcp#%40vpn_mall | 🇳🇱 NL | 188.137.236.192
 vless://06965a0b-3617-4dec-9044-08e446c35732@SUPmci.Deev-Guard.ir:3036?security=none&encryption=mlkem768x25519plus.native.0rtt.x8try52PFaTDSgZvj01fbRsH43gXD5Dx0S3yX1QkuB8&headerType=none&type=tcp#%40vpn_mall | 🇳🇱 NL | 188.137.238.184
+vless://06965a0b-3617-4dec-9044-08e446c35732@SUQ.Deev-Guard.ir:5444?security=&encryption=mlkem768x25519plus.native.0rtt.YCimiGc6d5fr2nDJVCgxJ2VjXYK26qlsJ0OxuDe7LAI&headerType=none&type=tcp#%40vpn_mall | 🇳🇱 NL | 185.229.251.72
 vless://06965a0b-3617-4dec-9044-08e446c35732@SUQ.Deev-Guard.ir:5444?security=&encryption=mlkem768x25519plus.native.0rtt.YCimiGc6d5fr2nDJVCgxJ2VjXYK26qlsJ0OxuDe7LAI&headerType=none&type=tcp#%40vpn_mall | 🇳🇱 NL | 185.251.25.162
 vless://06965a0b-3617-4dec-9044-08e446c35732@SUQ.Deev-Guard.ir:5444?security=&encryption=mlkem768x25519plus.native.0rtt.YCimiGc6d5fr2nDJVCgxJ2VjXYK26qlsJ0OxuDe7LAI&headerType=none&type=tcp#%40vpn_mall | 🇳🇱 NL | 185.251.25.65
 vless://06965a0b-3617-4dec-9044-08e446c35732@SUQ.Deev-Guard.ir:5444?security=&encryption=mlkem768x25519plus.native.0rtt.YCimiGc6d5fr2nDJVCgxJ2VjXYK26qlsJ0OxuDe7LAI&headerType=none&type=tcp#%40vpn_mall | 🇳🇱 NL | 188.137.236.192
